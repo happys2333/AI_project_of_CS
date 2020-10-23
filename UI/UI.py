@@ -3,7 +3,7 @@
 import pygame
 import tkinter
 import tkinter.messagebox
-from BoardData import *
+from UI.BoardData import *
 from pygame.locals import *
 from enum import Enum
 
@@ -20,7 +20,7 @@ class chess():
     # 初始化
     def __init__(self, screen, color, row, column):
         self.screen = screen
-        self.image = pygame.image.load("Images/chess" + str(color.value) + ".png")
+        self.image = pygame.image.load("UI/Images/chess" + str(color.value) + ".png")
         self.image = pygame.transform.scale(self.image, (Chessboard.UNIT * 2, Chessboard.UNIT * 2))
         self.pos = Chessboard.convertArrayToPos(row, column)
         self.rect = self.image.get_rect()
@@ -87,7 +87,7 @@ def init_game():
     # 设置窗口标题
     pygame.display.set_caption("我的五子棋AI果然有问题")
     # 设置背景
-    background = pygame.image.load('Images/bg.jpg')
+    background = pygame.image.load('UI/Images/bg.jpg')
     background = pygame.transform.scale(background, SIZE)
 
     screen.blit(background, (0, 0))
@@ -116,7 +116,7 @@ def putChessOnBoard(row, column):
 
 
 # 控制游戏进程
-if __name__ == '__main__':
+def open_UI():
     init_game()
     while True:
         for event in pygame.event.get():
