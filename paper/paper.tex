@@ -1,11 +1,17 @@
 \documentclass[a4paper]{article}
 \usepackage{ctex}
+\usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{color}
 \usepackage{CJK}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{algorithm}%写算法时需要调用的包
+\usepackage{algorithmic}%写算法时需要调用的包
+\usepackage{setspace}%修改行间距需要调用的包
 \definecolor{gray}{RGB}{192,192,192}%灰色设置
 \title{\heiti \Large 我的五子棋AI果然有问题}%题目
-\author{\songti \small 韩梓辰 夏星晨 周贤玮 赵云龙 张坤龙}%作者信息
+\author{\songti \small 韩梓辰\ 夏星晨\ 周贤玮\ 赵云龙\ 张坤龙}%作者信息
 \pagestyle{fancy}
 \lhead{\textcolor{gray} {Computer Science 计算机科学}}
 \rhead{\textcolor{gray} {\thepage}}
@@ -16,12 +22,24 @@
 \lhead{\textcolor{gray} {计算机科学}}
 \rhead{\textcolor{gray} {DOI:xxxxxx}}
 \renewcommand{\headrulewidth}{0.4pt}
-
-
-
-
-
-\begin{thebibliography}{30}%参考文献
-\bibitem{ref1}{naka. J., The weakest Othello, Takujin Yoshida.Thoroughly dig into the inside of the development!(2019-7-25) [2020-09-01]https://ai-trend.jp/business-article/interview/othello-cto-interview/}
-\end{thebibliography}
+\begin{abstract}
+    随着人工智能的发展，
+    \par\textbf{关键词：\ }人工智能,五子棋,神经网络,人工智障,TensorFlow
+\end{abstract}
+\tableofcontents  %表示目录部分开始
+\newpage
+    \begin{multicols}{2}
+    \section{项目背景}
+    近年来，人工智能的火热程度越来越高，我们几乎在各行各业都可以遇到人工智能，同时我们也可以利用人工智能帮助我们干很多事情。随着人工智能的发展，我们也发现，人工智能在很多领域超过了人类本身，2016年3月，谷歌研发的人工智能--阿尔法狗与围棋世界冠军、职业九段棋手李世石进行围棋人机大战，以4比1的总比分获胜，震惊了棋坛；2016年末2017年初，该程序在中国棋类网站上以“大师”（Master）为注册账号与中日韩数十位围棋高手进行快棋对决，连续60局无一败绩，当人们知晓的时候，无不对人工智能的力量感到佩服；2017年5月，在中国乌镇围棋峰会上，它与排名世界第一的世界围棋冠军柯洁对战，以3比0的总比分获胜，取得了围棋界的王冠。围棋界公认阿尔法围棋的棋力已经超过人类职业围棋顶尖水平。
+    \section{项目思路}
+    \section{项目算法}
+    \section{项目代码}
+    \newpage
+    \addcontentsline{toc}{section}{参考文献}
+    \begin{thebibliography}{30}%参考文献
+    \bibitem{ref1}{naka. J., The weakest Othello, Takujin Yoshida.Thoroughly dig into the inside of the development!(2019-7-25) [2020-09-01]https://ai-trend.jp/business-article/interview/othello-cto-interview}
+    \bibitem{ref2}{李金洪\ 深度学习之TensorFlow\ [M]\ .北京.机械工业出版社, 2018-3}
+    \end{thebibliography}
+    \newpage
+\end{multicols}
 \end{document}
