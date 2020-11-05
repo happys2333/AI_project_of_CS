@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.18)  5 NOV 2020 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.18)  5 NOV 2020 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1342,8 +1342,8 @@ l.13 \begin{document}
                      
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 3757 strings out of 479917
- 67140 string characters out of 5886664
+ 3758 strings out of 479917
+ 67204 string characters out of 5886664
  331820 words of memory out of 5000000
  20266 multiletter control sequences out of 15000+600000
  537889 words of font info for 35 fonts, out of 8000000 for 9000
