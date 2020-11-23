@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  20 NOV 2020 14:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  20 NOV 2020 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,32 +525,32 @@ Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
  [1
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 Takujin Yoshida.Thoroughly
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 43--44
+Underfull \hbox (badness 5050) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 dig into the inside of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 development!(2019-7-25)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 [2020-09-01]https://ai-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 trend.jp/business-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \TU/lmr/m/n/10.53937 article/interview/othello-
  []
 
@@ -562,6 +562,6 @@ Here is how much of TeX's memory you used:
  25495 multiletter control sequences out of 15000+600000
  536126 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,11n,81p,569b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,11n,81p,573b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (3 pages, 25916 bytes).
+Output written on paper.xdv (3 pages, 26352 bytes).
