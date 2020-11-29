@@ -75,7 +75,7 @@ def init_game():
     BOARD_WIDTH = 50
     # 创建棋盘
     global boardData
-    boardData = BoardData(20, 20)
+    boardData = BoardData(8, 8)
     chessBoard = Chessboard(boardData)
     pygame.init()
 

@@ -9,6 +9,7 @@
 \usepackage{algorithm}%写算法时需要调用的包
 \usepackage{algorithmic}%写算法时需要调用的包
 \usepackage{setspace}%修改行间距需要调用的包
+\usepackage{graphicx}
 \definecolor{gray}{RGB}{192,192,192}%灰色设置
 \title{\heiti \Large 我的五子棋AI果然有问题}%题目
 \author{\songti \small 韩梓辰\ 夏星晨\ 周贤玮\ 赵云龙\ 张坤龙}%作者信息
@@ -36,7 +37,12 @@
 就在去年，日本“AVILEN”AI技术公司的首席技术官吉田拓真却反其道而行，研发出了一款“最弱AI”。针对这个模型，他构建了五层神经网络，盘面信息为输入层，输出的是棋盘有利度，通过模仿AlphaGO的构建，以及使用的算法，他成功做出了这个号称“史上最弱”的人工智能。他在推特上发表了这款支持人机对战的黑白棋小程序，最终，这个黑白棋AI在上千名网友的挑战下只输了寥寥数次。这打破了原本“创造胜过人类的人工智能”的固有思维模式。然而，出于时间原因，吉田拓真仅制作了黑白棋的AI程序\cite{ref2}，而目前，在其他棋类游戏方面的“人工智障”还是一片空白。\par
 基于这个创意，本组决定转换方向，即通过反向思路实现，将人工智能彻底做成另一个新的方向，即“人工智障”。我们计划设计一款可以不断的被人类战胜的机器，无论人类如何放水都可以输掉整个比赛。，本组决定以博弈树，极大极小值搜索，算杀等较为普遍的算法为基础，通过更加优秀的数学建模，神经学习网络，底层优化来实现本组预期制作的五子棋“人工智障”。并将以人与AI，AI与AI之间的棋局胜负为指标，来验证本组五子棋AI的优越性。
     \section{相关工作}
-    整体项目思路是通过是将整个棋盘视作矩阵，通过
+    由于大家对python编程语言并不是很熟悉，所以在项目初期，我们五个人都进行了python的学习\cite{ref3}，通过python的短暂学习，大家均掌握了大部分的python语法，包括pip的安装库，for的高级用法。通过在网站上的学习过程，我们逐渐的学习并熟练了python的过程,我们利用pygame对本次五子棋的图形界面进行了实现
+    \includegraphics{gamepic.png}
+
+
+
+
     \section{详细的实现}
 
     \section{验证}
@@ -48,6 +54,12 @@
     \begin{thebibliography}{30}%参考文献
     \bibitem{ref1}{李金洪\ 深度学习之TensorFlow\ [M]\ .北京.机械工业出版社, 2018-3}
     \bibitem{ref2}{naka. J., The weakest Othello, Takujin Yoshida.Thoroughly dig into the inside of the development!(2019-7-25) [2020-09-01]https://ai-trend.jp/business-article/interview/othello-cto-interview}
+    \bibitem{ref3}{python基础教程 https://www.runoob.com/python/python-tutorial.html}
+    \bibitem{ref4}{董慧颖;王杨．多种搜索算法的五子棋博弈算法研究[J]．沈阳理工大学学报，2017,2}
+
+
+
+
     \end{thebibliography}
     \newpage
 \end{multicols}
