@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1606660304 "paper.xdv" "paper.pdf" "paper" 1606660305
-  "paper.xdv" 1606660304 40652 7fc9107107665ce767dc48ed12088676 "xelatex"
+["xdvipdfmx"] 1606662317 "paper.xdv" "paper.pdf" "paper" 1606662320
+  "paper.xdv" 1606662317 42536 8e9866e5f1558681d49793c61893eee1 "xelatex"
   (generated)
   "paper.pdf"
-["xelatex"] 1606660303 "paper.tex" "paper.xdv" "paper" 1606660305
-  "/dev/null" 1606660297 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1606662316 "paper.tex" "paper.xdv" "paper" 1606662320
+  "/dev/null" 1606662316 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -74,12 +74,13 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1600791287 4769626 4b90569d5aadbd3a9c4ea0e69c38443f ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "game.png" 1606662109 1005308 8c3f7923c580355b8da8ccd675fe4b69 ""
   "gamepic.png" 1606660258 164896 7bf86b6656f21f05ef6ace343d040083 ""
-  "paper.aux" 1606660304 689 ca1d8b811cc4ba16dfa8fd26c5ca3896 "xelatex"
-  "paper.tex" 1606660298 6509 f9bd4d605746a6ca45dfb87832b61b18 ""
-  "paper.toc" 1606660304 315 395d20e4605c3c4fb756d5118a4d5278 "xelatex"
+  "paper.aux" 1606662317 689 3816cbde7f9f90fab5304dd5044a5ff7 "xelatex"
+  "paper.tex" 1606662309 6738 ffa645cab926124de2ee0305d42f288e ""
+  "paper.toc" 1606662317 315 1934ebeead0e154cb549409efb13c96b "xelatex"
   (generated)
   "paper.xdv"
   "paper.aux"
-  "paper.toc"
   "paper.log"
+  "paper.toc"

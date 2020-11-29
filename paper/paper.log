@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  29 NOV 2020 22:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  29 NOV 2020 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -527,59 +527,66 @@ Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
 ] [2]
 File: gamepic.png Graphic file (type bmp)
 <gamepic.png>
+File: game.png Graphic file (type bmp)
+<game.png>
 
-Overfull \hbox (0.63634pt too wide) in paragraph at lines 40--42
+Overfull \hbox (0.63634pt too wide) in paragraph at lines 40--44
+[]
+ []
+
+
+Overfull \hbox (291.2362pt too wide) in paragraph at lines 40--44
 [] 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 Takujin Yoshida.Thoroughly
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 56--57
+Underfull \hbox (badness 5050) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 dig into the inside of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 development!(2019-7-25)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 [2020-09-01]https://ai-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 trend.jp/business-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 \TU/lmr/m/n/10.53937 article/interview/othello-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []\TU/lmr/m/n/10.53937 python \TU/FandolSong-Regular(0)/m/n/10.53937 基 础 教 程
  []
 
 
-Overfull \hbox (49.59424pt too wide) in paragraph at lines 57--58
+Overfull \hbox (49.59424pt too wide) in paragraph at lines 58--59
 \TU/lmr/m/n/10.53937 https://www.runoob.com/python/python-
  []
 
-[4] (./paper.aux) ) 
+[5] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 8176 strings out of 479418
- 225917 string characters out of 5884585
+ 8182 strings out of 479418
+ 225977 string characters out of 5884585
  505114 words of memory out of 5000000
- 25553 multiletter control sequences out of 15000+600000
+ 25558 multiletter control sequences out of 15000+600000
  536126 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,11n,81p,675b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (4 pages, 40652 bytes).
+Output written on paper.xdv (5 pages, 42536 bytes).

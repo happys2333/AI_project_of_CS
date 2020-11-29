@@ -132,4 +132,5 @@ INPUT paper.toc
 OUTPUT paper.toc
 OUTPUT paper.xdv
 INPUT gamepic.png
+INPUT game.png
 INPUT paper.aux
