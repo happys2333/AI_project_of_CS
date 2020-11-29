@@ -1,43 +1,41 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  20 NOV 2020 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.9.23)  27 NOV 2020 16:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper.tex
-(./paper.tex
+**/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex
+(/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctex.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
- (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count171
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count175
 \l__pdf_internal_box=\box45
-\g__pdf_backend_object_int=\count172
-\g__pdf_backend_annotation_int=\count173
 ))
 Package: ctex 2019/05/29 v2.4.16 Chinese adapter in LaTeX (CTEX)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count174
-\g__xparse_grabber_int=\count175
-\l__xparse_m_args_int=\count176
-\l__xparse_v_nesting_int=\count177
+\l__xparse_current_arg_int=\count176
+\g__xparse_grabber_int=\count177
+\l__xparse_m_args_int=\count178
+\l__xparse_v_nesting_int=\count179
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctexhook.sty
@@ -52,194 +50,199 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\l__ctex_tmp_int=\count178
+\l__ctex_tmp_int=\count180
 \l__ctex_tmp_box=\box46
 \l__ctex_tmp_dim=\dimen135
-\g__ctex_section_depth_int=\count179
-\g__ctex_font_size_int=\count180
+\g__ctex_section_depth_int=\count181
+\g__ctex_font_size_int=\count182
  (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
-File: ctex-engine-xetex.def 2019/05/29 v2.4.16 XeLaTeX adapter (CTEX)
- (/usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2020/02/18 v3.8.2 Typesetting CJK scripts with XeLaTeX
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen136
-\l__xtemplate_tmp_int=\count181
-\l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip49
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2019/05/29 v2.4.16 (pdf)LaTeX adapter (CTEX)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
 )
-\l__xeCJK_tmp_int=\count182
-\l__xeCJK_tmp_box=\box47
-\l__xeCJK_tmp_dim=\dimen137
-\l__xeCJK_tmp_skip=\skip50
-\g__xeCJK_space_factor_int=\count183
-\l__xeCJK_begin_int=\count184
-\l__xeCJK_end_int=\count185
-\c__xeCJK_CJK_class_int=\XeTeXcharclass1
-\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
-\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
-\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
-\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
-\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
-\c__xeCJK_CM_class_int=\XeTeXcharclass7
-\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
-\l__xeCJK_last_skip=\skip51
-\g__xeCJK_node_int=\count186
-\c__xeCJK_CJK_node_dim=\dimen138
-\c__xeCJK_CJK-space_node_dim=\dimen139
-\c__xeCJK_default_node_dim=\dimen140
-\c__xeCJK_default-space_node_dim=\dimen141
-\c__xeCJK_CJK-widow_node_dim=\dimen142
-\c__xeCJK_normalspace_node_dim=\dimen143
-\l__xeCJK_ccglue_skip=\skip52
-\l__xeCJK_ecglue_skip=\skip53
-\l__xeCJK_punct_kern_skip=\skip54
-\l__xeCJK_last_penalty_int=\count187
-\l__xeCJK_last_bound_dim=\dimen144
-\l__xeCJK_last_kern_dim=\dimen145
-\l__xeCJK_widow_penalty_int=\count188
-
-Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2302.
-
-\l__xeCJK_fixed_punct_width_dim=\dimen146
-\l__xeCJK_mixed_punct_width_dim=\dimen147
-\l__xeCJK_middle_punct_width_dim=\dimen148
-\l__xeCJK_fixed_margin_width_dim=\dimen149
-\l__xeCJK_mixed_margin_width_dim=\dimen150
-\l__xeCJK_middle_margin_width_dim=\dimen151
-\l__xeCJK_bound_punct_width_dim=\dimen152
-\l__xeCJK_bound_margin_width_dim=\dimen153
-\l__xeCJK_margin_minimum_dim=\dimen154
-\l__xeCJK_kerning_total_width_dim=\dimen155
-\l__xeCJK_same_align_margin_dim=\dimen156
-\l__xeCJK_different_align_margin_dim=\dimen157
-\l__xeCJK_kerning_margin_width_dim=\dimen158
-\l__xeCJK_kerning_margin_minimum_dim=\dimen159
-\l__xeCJK_bound_dim=\dimen160
-\l__xeCJK_reverse_bound_dim=\dimen161
-\l__xeCJK_margin_dim=\dimen162
-\l__xeCJK_minimum_bound_dim=\dimen163
-\l__xeCJK_kerning_margin_dim=\dimen164
-\g__xeCJK_family_int=\count189
-\l__xeCJK_fam_int=\count190
-\g__xeCJK_fam_allocation_int=\count191
-\l__xeCJK_verb_case_int=\count192
-\l__xeCJK_verb_exspace_skip=\skip55
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
- (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count193
-\l__fontspec_language_int=\count194
-\l__fontspec_strnum_int=\count195
-\l__fontspec_tmp_int=\count196
-\l__fontspec_tmpa_int=\count197
-\l__fontspec_tmpb_int=\count198
-\l__fontspec_tmpc_int=\count199
-\l__fontspec_em_int=\count266
-\l__fontspec_emdef_int=\count267
-\l__fontspec_strong_int=\count268
-\l__fontspec_strongdef_int=\count269
-\l__fontspec_tmpa_dim=\dimen165
-\l__fontspec_tmpb_dim=\dimen166
-\l__fontspec_tmpc_dim=\dimen167
- (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2020/02/18 v3.8.2 Configuration file for xeCJK package
-)) (/usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
-Package: xeCJKfntef 2020/02/18 v3.8.2 xeCJK font effect
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box47
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count183
+\CJKpunct@cntb=\count184
+\CJKpunct@cntc=\count185
+\CJKpunct@cntd=\count186
+\CJKpunct@cnte=\count187
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2015/04/18 3.8.0
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/standard.bdg
+File: standard.bdg 2015/04/18 4.8.4
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2019/05/29 v2.4.16 Space info for CJKpunct (CTEX)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+Package: CJKfntef 2015/04/18 4.8.4
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKulem.sty
+Package: CJKulem 2015/04/18 4.8.4
  (/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box48
 \UL@hyphenbox=\box49
-\UL@skip=\skip56
+\UL@skip=\skip49
 \UL@hook=\toks15
-\UL@height=\dimen168
-\UL@pe=\count270
-\UL@pixel=\dimen169
+\UL@height=\dimen136
+\UL@pe=\count188
+\UL@pixel=\dimen137
 \ULC@box=\box50
 Package: ulem 2019/11/18
-\ULdepth=\dimen170
+\ULdepth=\dimen138
 )
-\l__xeCJK_space_skip=\skip57
-\c__xeCJK_ulem-begin_node_dim=\dimen171
-\c__xeCJK_null_box=\box51
-\l__xeCJK_fntef_box=\box52
-\l__xeCJK_under_symbol_box=\box53
-\c__xeCJK_filll_skip=\skip58
+\UL@lastkern=\dimen139
+\CJK@skip=\skip50
 )
-\ccwd=\dimen172
-\l__ctex_ccglue_skip=\skip59
+\CJK@fntefSkip=\skip51
+\CJK@nest=\count189
+\CJK@fntefDimen=\dimen140
+\CJK@underdotBox=\box51
+\CJK@ULbox=\box52
+\CJK@underanyskip=\dimen141
 )
-\l__ctex_ziju_dim=\dimen173
+\ccwd=\dimen142
+\l__ctex_ccglue_skip=\skip52
+)
+\l__ctex_ziju_dim=\dimen143
  (/usr/local/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count271
- (/usr/local/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
-File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
+\l__zhnum_scale_int=\count190
+\l__zhnum_byte_min_int=\count191
+\l__zhnum_byte_max_int=\count192
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-gbk.cfg
+File: zhnumber-gbk.cfg 2019/04/07 v2.7 Chinese numerals with GBK encoding
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
 File: ctex-scheme-chinese.def 2019/05/29 v2.4.16 Chinese scheme for generic (CTEX)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
-File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-gbk.cfg
+File: ctex-name-gbk.cfg 2019/05/29 v2.4.16 Caption with encoding GBK (CTEX)
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
 File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
 File: ctex-fontset-fandol.def 2019/05/29 v2.4.16 Fandol fonts definition (CTEX)
 
 
-Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
-(fontspec)                Script "CJK".
+/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def:113: Critical Package ctex Error: CTeX fontset `fandol' is unavailable in current
+(ctex)                         mode.
 
+Type <return> to continue.
+ ...                                              
+                                                  
+l.113   }
+         
 
-Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
-(fontspec)             'FandolSong-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolKai-Regular}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+Reading the current file 'ctex-fontset-fandol' will stop.
+
 
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count272
-\mult@box=\box54
-\multicol@leftmargin=\dimen174
-\c@unbalance=\count273
-\c@collectmore=\count274
-\doublecol@number=\count275
-\multicoltolerance=\count276
-\multicolpretolerance=\count277
-\full@width=\dimen175
-\page@free=\dimen176
-\premulticols=\dimen177
-\postmulticols=\dimen178
-\multicolsep=\skip60
-\multicolbaselineskip=\skip61
-\partial@page=\box55
-\last@line=\box56
-\maxbalancingoverflow=\dimen179
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@gfirstbox=\box59
-\mult@firstbox=\box60
+\c@tracingmulticols=\count193
+\mult@box=\box53
+\multicol@leftmargin=\dimen144
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen145
+\page@free=\dimen146
+\premulticols=\dimen147
+\postmulticols=\dimen148
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\maxbalancingoverflow=\dimen149
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@gfirstbox=\box58
+\mult@firstbox=\box59
+\@tempa=\box60
 \@tempa=\box61
 \@tempa=\box62
 \@tempa=\box63
@@ -276,38 +279,37 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\@tempa=\box97
-\c@minrows=\count278
-\c@columnbadness=\count279
-\c@finalcolumnbadness=\count280
-\last@try=\dimen180
-\multicolovershoot=\dimen181
-\multicolundershoot=\dimen182
-\mult@nat@firstbox=\box98
-\colbreak@box=\box99
-\mc@col@check@num=\count281
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen150
+\multicolovershoot=\dimen151
+\multicolundershoot=\dimen152
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count268
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip62
-\f@nch@O@elh=\skip63
-\f@nch@O@erh=\skip64
-\f@nch@O@olh=\skip65
-\f@nch@O@orh=\skip66
-\f@nch@O@elf=\skip67
-\f@nch@O@erf=\skip68
-\f@nch@O@olf=\skip69
-\f@nch@O@orf=\skip70
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+Package color Info: Driver file: pdftex.def on input line 147.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip71
+\@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -315,47 +317,47 @@ Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen183
+\ex@=\dimen153
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen184
+\pmbraise@=\dimen154
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count282
+\inf@bad=\count269
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count283
-\leftroot@=\count284
+\uproot@=\count270
+\leftroot@=\count271
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count285
-\DOTSCASE@=\count286
+\classnum@=\count272
+\DOTSCASE@=\count273
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box100
-\strutbox@=\box101
-\big@size=\dimen185
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+\big@size=\dimen155
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count287
-\c@MaxMatrixCols=\count288
-\dotsspace@=\muskip17
-\c@parentequation=\count289
-\dspbrk@lvl=\count290
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip16
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
 \tag@help=\toks17
-\row@=\count291
-\column@=\count292
-\maxfields@=\count293
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
 \andhelp@=\toks18
-\eqnshift@=\dimen186
-\alignsep@=\dimen187
-\tagshift@=\dimen188
-\tagwidth@=\dimen189
-\totwidth@=\dimen190
-\lineht@=\dimen191
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
 \@envbody=\toks19
-\multlinegap=\skip72
-\multlinetaggap=\skip73
+\multlinegap=\skip65
+\multlinetaggap=\skip66
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
@@ -371,37 +373,39 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen192
-\Gin@req@width=\dimen193
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count294
+\c@float@type=\count281
 \float@exts=\toks22
-\float@box=\box102
+\float@box=\box101
 \@float@everytoks=\toks23
-\@floatcapt=\box103
+\@floatcapt=\box102
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks24
-\c@algorithm=\count295
+\c@algorithm=\count282
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count296
-\c@ALC@line=\count297
-\c@ALC@rem=\count298
-\c@ALC@depth=\count299
-\ALC@tlm=\skip74
-\algorithmicindent=\skip75
+\c@ALC@unique=\count283
+\c@ALC@line=\count284
+\c@ALC@rem=\count285
+\c@ALC@depth=\count286
+\ALC@tlm=\skip67
+\algorithmicindent=\skip68
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (./paper.aux)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/extended.enc
+File: extended.enc 2015/04/18 4.8.4
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/extended.chr
+File: extended.chr 2015/04/18 4.8.4
+) (/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -414,154 +418,951 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-ABD: EverySelectfont initializing macros
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 19.
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count287
+\scratchdimen=\dimen164
+\scratchbox=\box103
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen165
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Undefined control sequence.
+\@title ->\heiti 
+                 \Large 我的五子棋AI果然有问题
+l.20 \maketitle
+               %标题
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
+LaTeX Font Info:    Trying to load font information for C19+song on input line 20.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cjk/texinput/GB/c19song.fd
+File: c19song.fd 2015/04/18 4.8.4
+)<<c1976.cmap>><<c1913.cmap>><<c1919.cmap>><<c1974.cmap>><<c1915.cmap>><<c1933.cmap>><<c1908.cmap>><<c1921.cmap>><<c1903.cmap>><<c1907.cmap>><<c1917.cmap>><<c1978.cmap>>
+Runaway argument?
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Paragraph ended before \CJK@XX was complete.
+<to be read again> 
+                   \par 
+l.20 \maketitle
+               %标题
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
-LaTeX Font Info:    Redeclaring math accent \check on input line 19.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 19.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 19.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 19.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 19.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 19.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 19.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 19.
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Undefined control sequence.
+\@author ->\songti 
+                   \small 韩梓辰\ 夏星晨\ 周贤玮\ 赵云龙\ 张坤龙
+l.20 \maketitle
+               %标题
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+<<c1931.cmap>><<c1925.cmap>>
+Package CJKpunct Info: punctuation spaces for family 'song' do not exist. Use family 'def' instead. on input line 20.
+<<c1977.cmap>>
 
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Package CJK Error: Invalid character code.
 
+See the CJK package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \maketitle
+               %标题
+The second byte of the CJK code is out of range.
+Do you use the right encoding scheme?
 
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
-(fontspec)             'FandolHei-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+<<c1975.cmap>><<c1912.cmap>><<c1918.cmap>>
 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Package CJK Error: Invalid character code.
 
-Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
-(fontspec)                Script "CJK".
+See the CJK package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \maketitle
+               %标题
+The second byte of the CJK code is out of range.
+Do you use the right encoding scheme?
 
+<<c1930.cmap>><<c1939.cmap>>
 
-Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
-(fontspec)             'FandolSong-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Package CJK Error: Invalid character code.
 
-(./paper.toc)
-\tf@toc=\write3
-\openout3 = `paper.toc'.
+See the CJK package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \maketitle
+               %标题
+The second byte of the CJK code is out of range.
+Do you use the right encoding scheme?
 
- [1
+<<c1940.cmap>><<c1943.cmap>>
 
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 Takujin Yoshida.Thoroughly
- []
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Package CJK Error: Invalid character code.
 
+See the CJK package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \maketitle
+               %标题
+The second byte of the CJK code is out of range.
+Do you use the right encoding scheme?
 
-Underfull \hbox (badness 5050) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 dig into the inside of the
- []
+<<c1924.cmap>><<c1922.cmap>>
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Improper alphabetic constant.
+<to be read again> 
+                   \end 
+l.20 \maketitle
+               %标题
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing = inserted for \ifnum.
+<to be read again> 
+                   \end< 
+l.20 \maketitle
+               %标题
+I was expecting to see `<', `=', or `>'. Didn't.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 development!(2019-7-25)
- []
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing number, treated as zero.
+<to be read again> 
+                   \end< 
+l.20 \maketitle
+               %标题
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Improper alphabetic constant.
+<to be read again> 
+                   \end 
+l.20 \maketitle
+               %标题
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 [2020-09-01]https://ai-
- []
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing = inserted for \ifnum.
+<to be read again> 
+                   \end> 
+l.20 \maketitle
+               %标题
+I was expecting to see `<', `=', or `>'. Didn't.
 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing number, treated as zero.
+<to be read again> 
+                   \end> 
+l.20 \maketitle
+               %标题
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 trend.jp/business-
- []
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Improper alphabetic constant.
+<to be read again> 
+                   \end 
+l.20 \maketitle
+               %标题
+A one-character control sequence belongs after a ` mark.
+So I'm essentially inserting \0 here.
 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-\TU/lmr/m/n/10.53937 article/interview/othello-
- []
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-[3] (./paper.aux) ) 
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \relax 
+l.20 \maketitle
+               %标题
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 8115 strings out of 479418
- 221769 string characters out of 5884585
- 500114 words of memory out of 5000000
- 25495 multiletter control sequences out of 15000+600000
- 536126 words of font info for 71 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 58i,11n,81p,573b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5986 strings out of 480608
+ 105241 string characters out of 5903630
+ 346903 words of memory out of 5000000
+ 21676 multiletter control sequences out of 15000+600000
+ 544371 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 97i,7n,94p,550b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (3 pages, 26352 bytes).
+/Users/happys/Desktop/project/AI/AI_project_of_CS/paper/paper.tex:20:  ==> Fatal error occurred, no output PDF file produced!
