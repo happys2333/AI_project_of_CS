@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1607075509 "paper.xdv" "paper.pdf" "paper" 1607075511
-  "paper.xdv" 1607075509 96456 dabc08a37d564aaf591cc0d48882bc2a "xelatex"
+["xdvipdfmx"] 1607076503 "paper.xdv" "paper.pdf" "paper" 1607076505
+  "paper.xdv" 1607076503 98560 cd44a6172bece74b7c83371727079b65 "xelatex"
   (generated)
   "paper.pdf"
-["xelatex"] 1607075508 "paper.tex" "paper.xdv" "paper" 1607075511
-  "/dev/null" 1607075511 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1607076502 "paper.tex" "paper.xdv" "paper" 1607076505
+  "/dev/null" 1607076504 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -86,11 +86,11 @@
   "k3.png" 1607072463 41733 547b522a0eefd717a76f016d9502f398 ""
   "k4.jpg" 1607075349 20851 62121a2c35e0c33cfde8494935445227 ""
   "k4.png" 1607072472 40153 b1726875f6ee5e6ee3fb78bed37c81ac ""
-  "paper.aux" 1607075509 1397 2a4b3e06cfeb2f240f7bf4d69bc74654 "xelatex"
-  "paper.tex" 1607075503 14332 b6e8b8d3abaf3f54dc067aa626d044b5 ""
-  "paper.toc" 1607075509 637 ad953ccf42476e7eba57ed4875493798 "xelatex"
+  "paper.aux" 1607076503 1490 3dc107f9d6195d529edcfa0de892c825 "xelatex"
+  "paper.tex" 1607076498 14635 af2fd30938800b179ce0363b546d49ab ""
+  "paper.toc" 1607076503 637 ad953ccf42476e7eba57ed4875493798 "xelatex"
   (generated)
-  "paper.log"
-  "paper.toc"
-  "paper.aux"
   "paper.xdv"
+  "paper.aux"
+  "paper.toc"
+  "paper.log"
