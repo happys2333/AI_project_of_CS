@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  29 NOV 2020 23:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  4 DEC 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,75 +518,186 @@ Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
 (fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-(./paper.toc)
+(./paper.toc
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 3.
+
+[1
+
+])
 \tf@toc=\write3
 \openout3 = `paper.toc'.
 
- [1
-
-] [2]
+ [2] [3]
 File: gamepic.png Graphic file (type bmp)
 <gamepic.png>
 File: game.png Graphic file (type bmp)
 <game.png>
 
-Overfull \hbox (0.63634pt too wide) in paragraph at lines 40--44
+Overfull \hbox (3.22754pt too wide) in paragraph at lines 41--45
 []
  []
 
 
-Overfull \hbox (291.2362pt too wide) in paragraph at lines 40--44
+Overfull \hbox (3.21712pt too wide) in paragraph at lines 41--45
 [] 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[4]
+File: k1.png Graphic file (type bmp)
+<k1.png>
+
+Overfull \hbox (24.2933pt too wide) in paragraph at lines 56--58
+[][]
+ []
+
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 5 might be wrong on input line 59.
+
+[5]
+File: k2.png Graphic file (type bmp)
+<k2.png>
+
+Overfull \hbox (24.30254pt too wide) in paragraph at lines 59--61
+[][]
+ []
+
+File: k3.png Graphic file (type bmp)
+<k3.png>
+
+Overfull \hbox (24.29866pt too wide) in paragraph at lines 62--64
+[][]
+ []
+
+File: k4.png Graphic file (type bmp)
+<k4.png>
+
+Overfull \hbox (24.29474pt too wide) in paragraph at lines 65--66
+[][]
+ []
+
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 6 might be wrong on input line 69.
+
+[6]
+File: k4.jpg Graphic file (type bmp)
+<k4.jpg>
+
+Overfull \hbox (3.21947pt too wide) in paragraph at lines 70--72
+[] 
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 Takujin Yoshida.Thoroughly
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 57--58
+Underfull \hbox (badness 5050) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 dig into the inside of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 development!(2019-7-25)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 [2020-09-01]https://ai-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 trend.jp/business-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 \TU/lmr/m/n/10.53937 article/interview/othello-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\TU/lmr/m/n/10.53937 python \TU/FandolSong-Regular(0)/m/n/10.53937 基 础 教 程
  []
 
 
-Overfull \hbox (49.59424pt too wide) in paragraph at lines 58--59
+Overfull \hbox (49.59424pt too wide) in paragraph at lines 88--89
 \TU/lmr/m/n/10.53937 https://www.runoob.com/python/python-
  []
 
-[5] (./paper.aux) ) 
-Here is how much of TeX's memory you used:
- 8182 strings out of 479418
- 225977 string characters out of 5884585
- 505114 words of memory out of 5000000
- 25558 multiletter control sequences out of 15000+600000
- 536126 words of font info for 71 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 58i,11n,81p,675b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (5 pages, 42536 bytes).
+Underfull \hbox (badness 5741) in paragraph at lines 90--93
+\TU/FandolSong-Regular(0)/m/n/10.53937 子 棋 搜 索 算 法 \TU/lmr/m/n/10.53937 [J]. \TU/FandolSong-Regular(0)/m/n/10.53937 产 业 与
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
+\TU/FandolSong-Regular(0)/m/n/10.53937 科 技 论 坛\TU/lmr/m/n/10.53937 ,2020,19(01):73-74.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 知 乎\TU/lmr/m/n/10.53937 ; \TU/FandolSong-Regular(0)/m/n/10.53937 匿 名 用 户 蒙 特 卡 洛
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+\TU/FandolSong-Regular(0)/m/n/10.53937 树 是 什 么 算 法？| \TU/lmr/m/n/10.53937 2017-05-09
+ []
+
+
+Overfull \hbox (54.56882pt too wide) in paragraph at lines 93--94
+\TU/lmr/m/n/10.53937 https://www.zhihu.com/question/39916945 
+ []
+
+
+Overfull \hbox (90.3289pt too wide) in paragraph at lines 94--95
+\TU/lmr/m/n/10.53937 https://www.cnblogs.com/pinard/p/10470571.html 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]\TU/lmr/m/n/10.53937 yif25 \TU/FandolSong-Regular(0)/m/n/10.53937 博 客 蒙 特 卡 罗 树 搜
+ []
+
+
+Overfull \hbox (89.1274pt too wide) in paragraph at lines 95--96
+\TU/lmr/m/n/10.53937 https://www.cnblogs.com/yifdu25/p/8303462.html 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 知 乎\TU/lmr/m/n/10.53937 ; Xiaohu Zhu \TU/FandolSong-Regular(0)/m/n/10.53937 蒙
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\TU/FandolSong-Regular(0)/m/n/10.53937 特 卡 洛 树 搜 索 简 介
+ []
+
+
+Overfull \hbox (40.47768pt too wide) in paragraph at lines 96--97
+\TU/lmr/m/n/10.53937 https://zhuanlan.zhihu.com/p/30316076 
+ []
+
+[8] (./paper.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8366 strings out of 479418
+ 236639 string characters out of 5884585
+ 507114 words of memory out of 5000000
+ 25730 multiletter control sequences out of 15000+600000
+ 538903 words of font info for 86 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 58i,12n,81p,675b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on paper.xdv (8 pages, 96456 bytes).
