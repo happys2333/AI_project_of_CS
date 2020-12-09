@@ -20,7 +20,7 @@ class BoardData:
         self.board = np.zeros((row, column), dtype=int)
 
     def getBoard(self):
-        print(self.board)
+        # print(self.board)
         return self.board
 
     def transportToBoardData(self, boardFromGame):

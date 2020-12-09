@@ -6,7 +6,9 @@
 from __future__ import print_function
 import numpy as np
 
-from UI.UI_Board import init_game, checkEvent, BoardData, showChess
+import UI.UI_Board
+
+import threading
 
 
 class Board(object):
@@ -137,9 +139,8 @@ class Game(object):
     def __init__(self, board, **kwargs):
         self.board = board  # type: Board
 
-        self.boardData=BoardData.BoardData(board.width,board.height)
+        # self.boardData=BoardData.BoardData(board.width,board.height)
         #ui
-        init_game()
         # while True:
         #     for event in pygame.event.get():
         #         if event.type == QUIT:
@@ -148,8 +149,10 @@ class Game(object):
         #             checkEvent(event)
         #     pygame.display.update()
 
+
     def showUI(self,board,player1,player2):
-        showChess()
+        #change this
+        # showChess()
 
         pass
 
@@ -188,7 +191,16 @@ class Game(object):
             raise Exception('start_player should be either 0 (player1 first) '
                             'or 1 (player2 first)')
         self.board.init_board(start_player)
-        self.boardData = BoardData.BoardData(self.board.width,self.board.height)
+        print("before")
+        target=threading.Thread(target=UI.UI_Board.open_UI())
+        print("start")
+        # UI.UI_Board.init_game()
+        t2=threading.Thread(target=self.start_play1,args=(player1, player2, start_player, is_shown) )
+        t2.start()
+        print("end")
+        target.start()
+
+    def start_play1(self,player1, player2, start_player=0, is_shown=1):
         p1, p2 = self.board.players
         player1.set_player_ind(p1)
         player2.set_player_ind(p2)
@@ -198,6 +210,7 @@ class Game(object):
         while True:
             current_player = self.board.get_current_player()
             player_in_turn = players[current_player]
+            #TODO: Change the action
             move = player_in_turn.get_action(self.board)
             self.board.do_move(move)
             if is_shown:

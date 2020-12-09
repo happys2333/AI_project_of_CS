@@ -8,16 +8,16 @@ Input your move in the format: 2,3
 
 from __future__ import print_function
 import pickle
-from game import Board, Game
-from mcts_pure import MCTSPlayer as MCTS_Pure
-from mcts_alphaZero import MCTSPlayer
+from AI.game import Board, Game
+from AI.mcts_pure import MCTSPlayer as MCTS_Pure
+from AI.mcts_alphaZero import MCTSPlayer
 # from policy_value_net_numpy import PolicyValueNetNumpy
-from policy_value_net_numpy import PolicyValueNetNumpy
-from policy_value_net_pytorch import PolicyValueNet  # Pytorch
+from AI.policy_value_net_numpy import PolicyValueNetNumpy
+from AI.policy_value_net_pytorch import PolicyValueNet  # Pytorch
 # from policy_value_net import PolicyValueNet  # Theano and Lasagne
 # from policy_value_net_tensorflow import PolicyValueNet # Tensorflow
 # from policy_value_net_keras import PolicyValueNet  # Keras
-from w_mct_alphaZero import W_MCTSPlayer
+from AI.w_mct_alphaZero import W_MCTSPlayer
 
 
 class Human(object):

@@ -97,12 +97,15 @@ def init_game():
     # Chessboard.drawmap(screen,BOARD_WIDTH)
     chessBoard.drawmap(screen, 50)
 
+    pygame.display.update()
+
 
 # To solve mouse click event
 def checkEvent(event):
     if event.type == MOUSEBUTTONDOWN:
         row, column = Chessboard.convertPosToArray(event.pos[0], event.pos[1])
         putChessOnBoard(row, column)
+        pygame.display.update()
     pass
 
 
@@ -123,6 +126,7 @@ def showChess():
                 chessNew=chess(screen, Color.WHITE , i, j)
             elif boardData.getBoard()[i][j]==-1:
                 chessNew = chess(screen, Color.BLACK, i, j)
+    pygame.display.update()
 
 
 # 控制游戏进程
@@ -134,7 +138,6 @@ def open_UI():
                 exit()
             else:
                 checkEvent(event)
-        pygame.display.update()
 
 
 if __name__=="__main__":
