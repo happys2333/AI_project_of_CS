@@ -207,6 +207,8 @@ class Game(object):
                 UI.UI_Board.set_human(player_in_turn)
             #TODO: Change the action
             move = player_in_turn.get_action(self.board)
+            if move==None:
+                continue
             self.board.do_move(move)
             if is_shown:
                 self.graphic(self.board, player1.player, player2.player)
