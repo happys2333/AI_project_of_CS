@@ -10,7 +10,7 @@ from enum import Enum
 
 
 # 颜色RGB
-from AI.human_play import Human
+
 from UI import BoardData
 
 
@@ -125,7 +125,10 @@ def checkEvent(event):
 
 
 def putChessOnBoard(row, column):
-    pass
+    # pass
+    print(row,column)
+    if Human!=None:
+        Human.give_input(boardData.row-1-column,row)
     # Human.give_input(row,column)
     # isWin = boardData.putChess(row, column)
     # if isWin != False:
@@ -152,7 +155,7 @@ def open_UI():
 
     # init_game()
     while True:
-        sleep(1)
+        sleep(0.5)
         for event in pygame.event.get():
             if event.type == QUIT:
                 exit()

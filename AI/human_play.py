@@ -46,7 +46,8 @@ class Human(object):
             # if isinstance(location, str):  # for python3
             #     location = [int(n, 10) for n in location.split(",")]
             while not self.canInput:
-                pass
+                continue
+
 
             # canInput=False
             move = board.location_to_move(self.inputt)
@@ -55,7 +56,8 @@ class Human(object):
             move = -1
         if move == -1 or move not in board.availables:
             print("invalid move")
-            move = self.get_action(board)
+            # move = self.get_action(board)
+            return
         return move
 
     def __str__(self):
@@ -105,5 +107,6 @@ def run(AI_or_notAI):
         print('\n\rquit')
 
 if __name__ == '__main__':
-    Ai_or_notAI = 'notAI'#选择智能还是智障
+    Ai_or_notAI = 'AI'#选择智能还是智障
+    # Ai_or_notAI = 'notAI'#选择智能还是智障
     run(Ai_or_notAI)

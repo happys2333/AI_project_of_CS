@@ -80,6 +80,7 @@ class Board(object):
         return square_state[:, ::-1, :]
 
     def do_move(self, move):
+        if(move==None):return
         self.states[move] = self.current_player
         self.availables.remove(move)
         self.current_player = (
@@ -185,6 +186,7 @@ class Game(object):
             raise Exception('start_player should be either 0 (player1 first) '
                             'or 1 (player2 first)')
         self.board.init_board(start_player)
+        UI.UI_Board.set_human(None)
         UI.UI_Board.init_game()
         t2=threading.Thread(target=self.start_play1,args=(player1, player2, start_player, is_shown) )
         t2.start()
@@ -201,6 +203,8 @@ class Game(object):
         while True:
             current_player = self.board.get_current_player()
             player_in_turn = players[current_player]
+            if(type(player_in_turn).__name__=="Human"):
+                UI.UI_Board.set_human(player_in_turn)
             #TODO: Change the action
             move = player_in_turn.get_action(self.board)
             self.board.do_move(move)
