@@ -1,3 +1,3 @@
-# This file is for my CS205 class and all of those lib can be used under MIT lience!
+# 本项目用于南方科技大学人工智能导论期末作业
 ![lience](https://img.shields.io/github/license/happys2333/C_project?style=flat-square)             
-Every file has its own readme file, please read it before you want to clone it
+使用本项目工程代码请在MIT lience的规范下使用
