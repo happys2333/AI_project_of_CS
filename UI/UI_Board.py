@@ -3,12 +3,14 @@
 import pygame
 import tkinter
 import tkinter.messagebox
-from UI.BoardData import *
 from pygame.locals import *
 from enum import Enum
 
 
 # 颜色RGB
+from UI import BoardData
+
+
 class Color(Enum):
     WHITE = 0
     BLACK = 1
@@ -20,7 +22,7 @@ class chess():
     # 初始化
     def __init__(self, screen, color, row, column):
         self.screen = screen
-        self.image = pygame.image.load("UI/Images/chess" + str(color.value) + ".png")
+        self.image = pygame.image.load("Images/chess" + str(color.value) + ".png")
         self.image = pygame.transform.scale(self.image, (Chessboard.UNIT * 2, Chessboard.UNIT * 2))
         self.pos = Chessboard.convertArrayToPos(row, column)
         self.rect = self.image.get_rect()
@@ -75,7 +77,7 @@ def init_game():
     BOARD_WIDTH = 50
     # 创建棋盘
     global boardData
-    boardData = BoardData(8, 8)
+    boardData = BoardData.BoardData(8, 8)
     chessBoard = Chessboard(boardData)
     pygame.init()
 
@@ -87,7 +89,7 @@ def init_game():
     # 设置窗口标题
     pygame.display.set_caption("我的五子棋AI果然有问题")
     # 设置背景
-    background = pygame.image.load('UI/Images/bg.jpg')
+    background = pygame.image.load('Images/bg.jpg')
     background = pygame.transform.scale(background, SIZE)
 
     screen.blit(background, (0, 0))
@@ -114,6 +116,14 @@ def putChessOnBoard(row, column):
         init_game()
     return isWin
 
+def showChess():
+    for i in range(boardData.row):
+        for j in range(boardData.column):
+            if boardData.getBoard()[i][j]==1:
+                chessNew=chess(screen, Color.WHITE , i, j)
+            elif boardData.getBoard()[i][j]==-1:
+                chessNew = chess(screen, Color.BLACK, i, j)
+
 
 # 控制游戏进程
 def open_UI():
@@ -125,3 +135,7 @@ def open_UI():
             else:
                 checkEvent(event)
         pygame.display.update()
+
+
+if __name__=="__main__":
+    open_UI()
