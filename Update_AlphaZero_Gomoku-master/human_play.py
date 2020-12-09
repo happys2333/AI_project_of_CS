@@ -91,5 +91,5 @@ def run(AI_or_notAI):
         print('\n\rquit')
 
 if __name__ == '__main__':
-    Ai_or_notAI = 'notAI'#选择智能还是智障
-    run(Ai_or_notAI)
+    AI_or_notAI = 'AI'#选择智能还是智障
+    run(AI_or_notAI)
