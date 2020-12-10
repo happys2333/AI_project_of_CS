@@ -1,5 +1,7 @@
 # code:utf-8
 # author:zkl,白炎
+from time import sleep
+
 import pygame
 import tkinter
 import tkinter.messagebox
@@ -8,6 +10,7 @@ from enum import Enum
 
 
 # 颜色RGB
+
 from UI import BoardData
 
 
@@ -64,6 +67,10 @@ class Chessboard:
     def convertPosToArray(x, y):
         return (x - Chessboard.width // 2) // Chessboard.UNIT, (y - Chessboard.width // 2) // Chessboard.UNIT
 
+class bboard:
+    def __init__(self,boardData):
+        self.boardData=boardData
+
 
 # 主程序
 # 初始化界面
@@ -71,6 +78,9 @@ class Chessboard:
 
 screen = 1
 
+def set_human(human):
+    global Human
+    Human=human
 
 def init_game():
     # 设置边框宽度
@@ -99,6 +109,11 @@ def init_game():
 
     pygame.display.update()
 
+def updateBoard(board):
+    if boardData:
+        boardData.transportToBoardData(board)
+        showChess()
+
 
 # To solve mouse click event
 def checkEvent(event):
@@ -110,14 +125,20 @@ def checkEvent(event):
 
 
 def putChessOnBoard(row, column):
-    isWin = boardData.putChess(row, column)
-    if isWin != False:
-        chessNew = chess(screen, Color.WHITE if boardData.thisTurn else Color.BLACK, row, column)
-    print(isWin)
-    if isWin:
-        tkinter.messagebox.askokcancel(title="Who Won?", message="White won" if boardData.thisTurn else "Black won");
-        init_game()
-    return isWin
+    # pass
+    print(row,column)
+    if Human!=None:
+        Human.give_input(boardData.row-1-column,row)
+    # Human.give_input(row,column)
+    # isWin = boardData.putChess(row, column)
+    # if isWin != False:
+    #     chessNew = chess(screen, Color.WHITE if boardData.thisTurn else Color.BLACK, row, column)
+    #     print(row,column)
+    # print(isWin)
+    # if isWin:
+    #     tkinter.messagebox.askokcancel(title="Who Won?", message="White won" if boardData.thisTurn else "Black won");
+    #     init_game()
+    # return isWin
 
 def showChess():
     for i in range(boardData.row):
@@ -131,8 +152,10 @@ def showChess():
 
 # 控制游戏进程
 def open_UI():
-    init_game()
+
+    # init_game()
     while True:
+        sleep(0.5)
         for event in pygame.event.get():
             if event.type == QUIT:
                 exit()

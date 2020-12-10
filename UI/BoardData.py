@@ -25,12 +25,20 @@ class BoardData:
 
     def transportToBoardData(self, boardFromGame):
         for location in boardFromGame.states:
+            x=self.row - 1 - location // self.row
+            y=location % self.row
+            # temp=x
+            # x=(self.row-1)-y
+            # y=(self.row-1)-temp
+            temp=x
+            x=y
+            y=temp
             if boardFromGame.states[location] == 1:
-                self.board[location // self.row][location % self.row] = 1
+                self.board[x][y] = 1
             elif boardFromGame.states[location] == 2:
-                self.board[location // self.row][location % self.row] = -1
+                self.board[x][y] = -1
             else:
-                self.board[location // self.row][location % self.row] = 0
+                self.board[x][y] = 0
 
     def putChess(self, row, column):
         if row >= self.row or column >= self.column or row < 0 or column < 0:

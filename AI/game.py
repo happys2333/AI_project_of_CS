@@ -11,6 +11,7 @@ import UI.UI_Board
 import threading
 
 
+
 class Board(object):
     """board for the game"""
 
@@ -79,6 +80,7 @@ class Board(object):
         return square_state[:, ::-1, :]
 
     def do_move(self, move):
+        if(move==None):return
         self.states[move] = self.current_player
         self.availables.remove(move)
         self.current_player = (
@@ -139,21 +141,14 @@ class Game(object):
     def __init__(self, board, **kwargs):
         self.board = board  # type: Board
 
-        # self.boardData=BoardData.BoardData(board.width,board.height)
-        #ui
-        # while True:
-        #     for event in pygame.event.get():
-        #         if event.type == QUIT:
-        #             exit()
-        #         else:
-        #             checkEvent(event)
-        #     pygame.display.update()
 
 
-    def showUI(self,board,player1,player2):
-        #change this
-        # showChess()
 
+    def showUI(self,board):
+        UI.UI_Board.updateBoard(board)
+        # globalVar.get_value("boardData").transportToBoardData(board)
+        # UI.UI_Board.boardData.transportToBoardData(board)
+        # UI.UI_Board.showChess()
         pass
 
 
@@ -161,7 +156,7 @@ class Game(object):
     def graphic(self, board, player1, player2):
         """Draw the board and show game info"""
 
-        self.showUI(board, player1, player2)
+        self.showUI(board)
 
         width = board.width
         height = board.height
@@ -191,13 +186,11 @@ class Game(object):
             raise Exception('start_player should be either 0 (player1 first) '
                             'or 1 (player2 first)')
         self.board.init_board(start_player)
-        print("before")
-        target=threading.Thread(target=UI.UI_Board.open_UI())
-        print("start")
-        # UI.UI_Board.init_game()
+        UI.UI_Board.set_human(None)
+        UI.UI_Board.init_game()
         t2=threading.Thread(target=self.start_play1,args=(player1, player2, start_player, is_shown) )
         t2.start()
-        print("end")
+        target=threading.Thread(target=UI.UI_Board.open_UI())
         target.start()
 
     def start_play1(self,player1, player2, start_player=0, is_shown=1):
@@ -210,8 +203,12 @@ class Game(object):
         while True:
             current_player = self.board.get_current_player()
             player_in_turn = players[current_player]
+            if(type(player_in_turn).__name__=="Human"):
+                UI.UI_Board.set_human(player_in_turn)
             #TODO: Change the action
             move = player_in_turn.get_action(self.board)
+            if move==None:
+                continue
             self.board.do_move(move)
             if is_shown:
                 self.graphic(self.board, player1.player, player2.player)

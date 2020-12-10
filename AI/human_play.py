@@ -8,6 +8,7 @@ Input your move in the format: 2,3
 
 from __future__ import print_function
 import pickle
+# from AI.game import Board, Game
 from AI.game import Board, Game
 from AI.mcts_pure import MCTSPlayer as MCTS_Pure
 from AI.mcts_alphaZero import MCTSPlayer
@@ -27,21 +28,36 @@ class Human(object):
 
     def __init__(self):
         self.player = None
+        self.inputt=(0,0)
+        self.canInput=False
 
     def set_player_ind(self, p):
         self.player = p
 
+
+    def give_input(self,row,column):
+        self.inputt=(row,column)
+        self.canInput=True
+
     def get_action(self, board):
         try:
-            location = input("Your move: ")
-            if isinstance(location, str):  # for python3
-                location = [int(n, 10) for n in location.split(",")]
-            move = board.location_to_move(location)
+
+            # location = input("Your move: ")
+            # if isinstance(location, str):  # for python3
+            #     location = [int(n, 10) for n in location.split(",")]
+            while not self.canInput:
+                continue
+
+
+            # canInput=False
+            move = board.location_to_move(self.inputt)
+            # move = board.location_to_move(location)
         except Exception as e:
             move = -1
         if move == -1 or move not in board.availables:
-            print("invalid move")
-            move = self.get_action(board)
+
+            # move = self.get_action(board)
+            return
         return move
 
     def __str__(self):
@@ -91,5 +107,6 @@ def run(AI_or_notAI):
         print('\n\rquit')
 
 if __name__ == '__main__':
-    Ai_or_notAI = 'notAI'#选择智能还是智障
+    Ai_or_notAI = 'AI'#选择智能还是智障
+    # Ai_or_notAI = 'notAI'#选择智能还是智障
     run(Ai_or_notAI)
