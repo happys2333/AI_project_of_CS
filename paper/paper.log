@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  10 DEC 2020 09:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  10 DEC 2020 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,7 +672,7 @@ Overfull \hbox (3.21465pt too wide) in paragraph at lines 103--105
 [] 
  []
 
-[10] [11] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+[10] [11] [12] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 
@@ -692,135 +692,140 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7.52812> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 127.
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 131.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 Takujin Yoshida.Thoroughly
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 140--141
+Underfull \hbox (badness 5050) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 dig into the inside of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 development!(2019-7-25)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 [2020-09-01]https://ai-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 trend.jp/business-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 \TU/lmr/m/n/10.53937 article/interview/othello-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 \TU/lmr/m/n/10.53937 https://www.runoob.com/
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 144--147
+Underfull \hbox (badness 5741) in paragraph at lines 154--157
 \TU/FandolSong-Regular(0)/m/n/10.53937 子 棋 搜 索 算 法 \TU/lmr/m/n/10.53937 [J]. \TU/FandolSong-Regular(0)/m/n/10.53937 产 业 与
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 \TU/FandolSong-Regular(0)/m/n/10.53937 科 技 论 坛\TU/lmr/m/n/10.53937 ,2020,19(01):73-74.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\TU/FandolSong-Regular(0)/m/n/10.53937 知 乎\TU/lmr/m/n/10.53937 ; \TU/FandolSong-Regular(0)/m/n/10.53937 匿 名 用 户 蒙 特 卡 洛
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 \TU/FandolSong-Regular(0)/m/n/10.53937 树 是 什 么 算 法？| \TU/lmr/m/n/10.53937 2017-05-09
  []
 
 
-Overfull \hbox (54.56882pt too wide) in paragraph at lines 147--148
+Overfull \hbox (54.56882pt too wide) in paragraph at lines 157--158
 \TU/lmr/m/n/10.53937 https://www.zhihu.com/question/39916945 
  []
 
 
-Overfull \hbox (90.3289pt too wide) in paragraph at lines 148--149
+Overfull \hbox (90.3289pt too wide) in paragraph at lines 158--159
 \TU/lmr/m/n/10.53937 https://www.cnblogs.com/pinard/p/10470571.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 []\TU/lmr/m/n/10.53937 yif25 \TU/FandolSong-Regular(0)/m/n/10.53937 博 客 蒙 特 卡 罗 树 搜
  []
 
 
-Overfull \hbox (89.1274pt too wide) in paragraph at lines 149--150
+Overfull \hbox (89.1274pt too wide) in paragraph at lines 159--160
 \TU/lmr/m/n/10.53937 https://www.cnblogs.com/yifdu25/p/8303462.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 []\TU/FandolSong-Regular(0)/m/n/10.53937 知 乎\TU/lmr/m/n/10.53937 ; Xiaohu Zhu \TU/FandolSong-Regular(0)/m/n/10.53937 蒙
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \TU/FandolSong-Regular(0)/m/n/10.53937 特 卡 洛 树 搜 索 简 介
  []
 
 
-Overfull \hbox (40.47768pt too wide) in paragraph at lines 150--151
+Overfull \hbox (40.47768pt too wide) in paragraph at lines 160--161
 \TU/lmr/m/n/10.53937 https://zhuanlan.zhihu.com/p/30316076 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 []\TU/FandolSong-Regular(0)/m/n/10.53937 知 乎 叉 色\TU/lmr/m/n/10.53937 -xsir \TU/FandolSong-Regular(0)/m/n/10.53937 五 子
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 \TU/FandolSong-Regular(0)/m/n/10.53937 棋 的 谱 库 设 计 与 实 现
  []
 
 
-Overfull \hbox (40.47768pt too wide) in paragraph at lines 153--154
+Overfull \hbox (40.47768pt too wide) in paragraph at lines 163--164
 \TU/lmr/m/n/10.53937 https://zhuanlan.zhihu.com/p/88598278 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 []\TU/lmr/m/n/10.53937 David Silver, Aja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 \TU/lmr/m/n/10.53937 Huang.Mastering the game
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 []\TU/lmr/m/n/10.53937 CSDN BBlue-Sky Al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 \TU/lmr/m/n/10.53937 phaGo Zero \TU/FandolSong-Regular(0)/m/n/10.53937 详 解 \TU/lmr/m/n/10.53937 https://
  []
 
 
-Overfull \hbox (19.99971pt too wide) in paragraph at lines 157--158
+Overfull \hbox (19.99971pt too wide) in paragraph at lines 167--168
 \TU/lmr/m/n/10.53937 blog.csdn.net/qq_33813365/article/ 
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 174--175
+\TU/FandolSong-Regular(0)/m/n/10.53937 法 实 现 研 究 \TU/lmr/m/n/10.53937 [J]. \TU/FandolSong-Regular(0)/m/n/10.53937 中 国 新 通
  []
 
 [15] (./paper.aux)
@@ -830,12 +835,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 10511 strings out of 479418
- 270112 string characters out of 5884585
- 744784 words of memory out of 5000000
- 27835 multiletter control sequences out of 15000+600000
+ 10520 strings out of 479418
+ 270148 string characters out of 5884585
+ 744796 words of memory out of 5000000
+ 27844 multiletter control sequences out of 15000+600000
  538951 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,12n,81p,734b,1736s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,12n,81p,734b,1738s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (15 pages, 199972 bytes).
+Output written on paper.xdv (15 pages, 221932 bytes).
