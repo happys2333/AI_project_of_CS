@@ -27,25 +27,25 @@
 \rhead{\textcolor{gray} {DOI:xxxxxx}}
 \renewcommand{\headrulewidth}{0.4pt}
 \begin{abstract}
-    近年来，AlphaGo在棋坛上打遍天下无敌手，甚至进军电子竞技行业，人工智能在发展到今天，人类在竞技体育领域可能越来越不是他们的对手。但是，显然光对胜利的渴求并不新颖，因为人工智能现在越来越多的在各个领域聪明，从以前的人工智障变成了人工智能，在去年，日本一个公司开发了一款人工智能，号称史上最弱人工智能，这个人工智能在几百万次的游戏对战中只获取了1000次的胜利，无论人类如何放水，这个人工智能反倒越来越弱。于是放弃原有的老套人工智能思路，改为设计“人工智障”成为了一个全新的设计思路。\par
+  近年来，AlphaGo在棋坛上打遍天下无敌手，甚至进军电子竞技行业，人工智能在发展到今天，人类在竞技体育领域可能越来越不是他们的对手。但是，显然光对胜利的渴求并不新颖，因为人工智能现在越来越多的在各个领域聪明，从以前的人工智障变成了人工智能，在去年，日本一个公司开发了一款人工智能，号称史上最弱人工智能，这个人工智能在几百万次的游戏对战中只获取了1000次的胜利，无论人类如何放水，这个人工智能反倒越来越弱。于是放弃原有的老套人工智能思路，改为设计“人工智障”成为了一个全新的设计思路。\par
 该五子棋“人工智障”将基于Python编程语言，通过数学建模，博弈树，神经网络等算法实现。使用pytorch工具，CUDA加速实现矩阵运算的优化，更加优秀的卷积神经网络设计等方法对其进行进一步的优化。最后，在通过大量的人机对战、机机对战、预设对战的数据的学习下，该人工智障已具备一定的计算机科学技术上的智能水平，具有了一定的研究与使用意义。
-    \par\textbf{关键词：\ }人工智能,五子棋,神经网络,人工智障,TensorFlow
+  \par\textbf{关键词：\ }人工智能,五子棋,神经网络,人工智障,TensorFlow
 \end{abstract}
 \setlength{\baselineskip}{20pt}
 \tableofcontents  %表示目录部分开始
 \newpage
-    \begin{multicols}{2}
-    \section{引言}
-    在计算机科学高速发展的当代，人工智能的上限已经变成了一个未知数。人工智能之父图灵在1950年曾说过：下棋是很抽象的活动，是机器可以和人竞争的纯智能领域之一。\cite{ref1}自此之后，越来越多的学者开始研发超越人类的AI，攻克那些曾让人类引以为傲的脑力项目。在1997年时, IBM研发的Deeper Blue战胜了当年国际象棋世界冠军卡斯帕罗夫, 成为人工智能挑战人类智慧发展的里程碑。\cite{b1}而2016 年 3 月，谷歌研发的人工智能–阿尔法狗与围棋世界冠军、职业九段棋手李世石进行围棋人机大战，以4 比 1 的总比分获胜，震惊了棋坛；2016 年末 2017 年初，该程序在中国棋类网站上以“大师” （Master）为注册账号与中日韩数十位围棋高手进行快棋对决，连续 60 局无一败绩，当人们知晓的时候，无不对人工智能的力量感到佩服；2017 年 5 月，在中国乌镇围棋峰会上，它与排名世界第一的世界围棋冠军柯洁对战，以 3比 0 的总比分获胜，取得了围棋界的王冠。围棋界公认阿尔法围棋的棋力已经超过人类职业围棋顶尖水平。\cite{b3}人工智能在棋类方面令人诧异的表现将它推上了一个新的高度。时至今日，棋类AI的算法技术趋向成熟，大量的优化算法，学习模型的构建被提出、完善，包括决策树，算杀，A*搜索等等。这让人工智能在棋类方面几乎变得无懈可击。\cite{b2} \par
+  \begin{multicols}{2}
+  \section{引言}
+  在计算机科学高速发展的当代，人工智能的上限已经变成了一个未知数。人工智能之父图灵在1950年曾说过：下棋是很抽象的活动，是机器可以和人竞争的纯智能领域之一。\cite{ref1}自此之后，越来越多的学者开始研发超越人类的AI，攻克那些曾让人类引以为傲的脑力项目。在1997年时, IBM研发的Deeper Blue战胜了当年国际象棋世界冠军卡斯帕罗夫, 成为人工智能挑战人类智慧发展的里程碑。\cite{b1}而2016 年 3 月，谷歌研发的人工智能–阿尔法狗与围棋世界冠军、职业九段棋手李世石进行围棋人机大战，以4 比 1 的总比分获胜，震惊了棋坛；2016 年末 2017 年初，该程序在中国棋类网站上以“大师” （Master）为注册账号与中日韩数十位围棋高手进行快棋对决，连续 60 局无一败绩，当人们知晓的时候，无不对人工智能的力量感到佩服；2017 年 5 月，在中国乌镇围棋峰会上，它与排名世界第一的世界围棋冠军柯洁对战，以 3比 0 的总比分获胜，取得了围棋界的王冠。围棋界公认阿尔法围棋的棋力已经超过人类职业围棋顶尖水平。\cite{b3}人工智能在棋类方面令人诧异的表现将它推上了一个新的高度。时至今日，棋类AI的算法技术趋向成熟，大量的优化算法，学习模型的构建被提出、完善，包括决策树，算杀，A*搜索等等。这让人工智能在棋类方面几乎变得无懈可击。\cite{b2} \par
 就在去年，日本“AVILEN”AI技术公司的首席技术官吉田拓真却反其道而行，研发出了一款“最弱AI”。针对这个模型，他构建了五层神经网络，盘面信息为输入层，输出的是棋盘有利度，通过模仿AlphaGO的构建，以及使用的算法，他成功做出了这个号称“史上最弱”的人工智能。他在推特上发表了这款支持人机对战的黑白棋小程序，最终，这个黑白棋AI在上千名网友的挑战下只输了寥寥数次。这打破了原本“创造胜过人类的人工智能”的固有思维模式。然而，出于时间原因，吉田拓真仅制作了黑白棋的AI程序\cite{ref2}，而目前，在其他棋类游戏方面的“人工智障”还是一片空白。\par
 基于这个创意，本组决定转换方向，即通过反向思路实现，将人工智能彻底做成另一个新的方向，即“人工智障”。我们计划设计一款可以不断的被人类战胜的机器，无论人类如何放水都可以输掉整个比赛。，本组决定以博弈树，极大极小值搜索，算杀等较为普遍的算法为基础，通过更加优秀的数学建模，神经学习网络，底层优化来实现本组预期制作的五子棋“人工智障”。并将以人与AI，AI与AI之间的棋局胜负为指标，来验证本组五子棋AI的优越性。
-    \section{相关工作}
-    \subsection{python学习}
-    由于大家对python编程语言并不是很熟悉，所以在项目初期，我们五个人都进行了python的学习\cite{ref3}，通过python的短暂学习，大家均掌握了大部分的python语法，包括pip的安装库，for的高级用法。通过在网站上的学习过程，我们逐渐的学习并熟练了python的过程,我们利用pygame对本次五子棋的图形界面进行了实现。
-    \includegraphics[width=6cm,height=6cm]{gamepic.png}
-    此版本游戏实现较为简陋，后期我们对棋子的图片进行了重制，并兼顾了ai的算力的影响等问题，实现了第二版的图形界面，第二版的效果如下：
-    \includegraphics[width=6cm,height=6cm]{game.png}
-    \subsection{对照算法}
+  \section{相关工作}
+  \subsection{python学习}
+  由于大家对python编程语言并不是很熟悉，所以在项目初期，我们五个人都进行了python的学习\cite{ref3}，通过python的短暂学习，大家均掌握了大部分的python语法，包括pip的安装库，for的高级用法。通过在网站上的学习过程，我们逐渐的学习并熟练了python的过程,我们利用pygame对本次五子棋的图形界面进行了实现。
+  \includegraphics[width=6cm,height=6cm]{gamepic.png}
+  此版本游戏实现较为简陋，后期我们对棋子的图片进行了重制，并兼顾了ai的算力的影响等问题，实现了第二版的图形界面，第二版的效果如下：
+  \includegraphics[width=6cm,height=6cm]{game.png}
+  \subsection{对照算法}
 在训练神经网络之前，我们需要一个标准算法对我们的模型进行训练，这里我们采用的是蒙特卡洛树搜索。
 \subsubsection{算法概述}
 蒙特卡洛树搜索其实并非什么新型算法，早在上个世纪四十年代，为了满足原子能事业的发展，这个算法就已经被投入使用\cite{k1}。而直到2016 年 3 月，谷歌研发的人工智能–阿尔法狗与围棋世界冠军、职业九段棋手李世石进行围棋人机大战，最终以4 比 1 的总比分获胜，它才引起了人们的注意，网上也开始出现各种博客、论文等详细解析这个算法。时至今日，蒙特卡洛树搜索已经在棋类游戏AI中被广泛使用。\par
@@ -125,48 +125,1284 @@ $\begin{bmatrix} 0.2 & 0.5 \\ 1 & 0.6 \end{bmatrix}$\par
 1.可以对人工智能的数据直接进行利用，理论上，人工智能越聪明，人工智障越傻\par
 2.运算量相同，可以加速程序运行\par
 通过以上的处理方法，我们将人工智障的程序也顺利做了出来，经过测试可以实现在人类显著放水的情况下其仍然能让人类胜利。
-    \section{程序代码}
-    \subsection{主程序入口}
-    \begin{python}
-        print (hello world)
-    \end{python}
-    \section{测试}
+  \section{程序代码}
+  \subsection{主程序入口}
+  这里可以通过修改Ai\_or\_notAI ='AI'来选择是否和人工智能对战
+  \begin{lstlisting}[language=Python,breaklines = true]
+####################
+# author:happys
+# coding:UTF8
+# 程序目的：程序进入的入口
+###################
+# from AI.train import *
+# training_pipeline = TrainPipeline()
+# training_pipeline.run()
+#
+from AI.human_play import *
+Ai_or_notAI = 'AI'  # 选择智能还是智障
+# Ai_or_notAI = 'notAI'#选择智能还是智障
+run(Ai_or_notAI)
+  \end{lstlisting}
+  \subsection{UI界面}
+  UI\_Board.py
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+# code:utf-8
+# author:zkl,白炎
+from time import sleep
+import pygame
+import tkinter
+import tkinter.messagebox
+from pygame.locals import *
+from enum import Enum
+# 颜色RGB
+from UI import BoardData
+class Color(Enum):
+  WHITE = 0
+  BLACK = 1
+  RED = (255, 0, 0)
+# 棋子类
+class chess():
+  # 初始化
+  def __init__(self, screen, color, row, column):
+    self.screen = screen
+    self.image = pygame.image.load("AI/Images/chess" + str(color.value) + ".png")
+    self.image = pygame.transform.scale(self.image, (Chessboard.UNIT * 2, Chessboard.UNIT * 2))
+    self.pos = Chessboard.convertArrayToPos(row, column)
+    self.rect = self.image.get_rect()
+    self.rect = self.pos
+    self.screen.blit(self.image, self.rect)
+# 棋盘类
+class Chessboard:
 
-    \section{结束语}
-    \subsection{研究总结}
-    1.	本组对棋类博弈人工智能的发展历程进行了了解，学习了博弈树、局面评估函数、卡罗蒙特树等相关算法，对当代的五子棋AI进行研究分析，从而确定了本组的研究目标与研究方向。\par
+  # 初始化棋盘
+  def __init__(self, board_data, UNIT=35, width=50):
+    self.ROW = board_data.row
+    self.COLUMN = board_data.column
+    Chessboard.UNIT = UNIT
+    Chessboard.width = width
+
+  # 绘制棋盘, 传入当前棋盘，窗口，边框宽度
+  def drawmap(self, screen, width):
+    # 行
+  for row in range(self.COLUMN):
+    pygame.draw.line(screen, Color.RED.value,(width, width + row * self.UNIT),(width + self.UNIT * (self.ROW - 1),width + row * self.UNIT))
+    # 列
+  for column in range(self.ROW):
+    pygame.draw.line(screen, Color.RED.value,(width + column * self.UNIT, width),(width + column * self.UNIT,width + self.UNIT * (self.COLUMN - 1)))
+  @staticmethod
+  def convertArrayToPos(row, column):
+    return Chessboard.width + (row - 1) * Chessboard.UNIT, Chessboard.width + (column - 1) * Chessboard.UNIT
+
+  @staticmethod
+  def convertPosToArray(x, y):
+    return (x - Chessboard.width // 2) // Chessboard.UNIT, (y - Chessboard.width // 2) // Chessboard.UNIT
+
+class bboard:
+  def __init__(self,boardData):
+    self.boardData=boardData
+
+
+# 主程序
+# 初始化界面
+
+
+screen = 1
+
+def set_human(human):
+  global Human
+  Human=human
+
+def init_game():
+  # 设置边框宽度
+  BOARD_WIDTH = 50
+  # 创建棋盘
+  global boardData
+  boardData = BoardData.BoardData(8, 8)
+  chessBoard = Chessboard(boardData)
+  pygame.init()
+
+  SIZE = (2 * BOARD_WIDTH + chessBoard.UNIT * (chessBoard.ROW - 1),
+    2 * BOARD_WIDTH + chessBoard.UNIT * (chessBoard.COLUMN - 1))
+  # 创建窗口
+  global screen
+  screen = pygame.display.set_mode(SIZE)
+  # 设置窗口标题
+  pygame.display.set_caption("我的五子棋AI果然有问题")
+  # 设置背景
+  background = pygame.image.load('AI/Images/bg.jpg')
+  background = pygame.transform.scale(background, SIZE)
+
+  screen.blit(background, (0, 0))
+  # #绘制棋盘
+  # Chessboard.drawmap(screen,BOARD_WIDTH)
+  chessBoard.drawmap(screen, 50)
+
+  pygame.display.update()
+
+def updateBoard(board):
+  if boardData:
+    boardData.transportToBoardData(board)
+    showChess()
+
+
+# To solve mouse click event
+def checkEvent(event):
+  if event.type == MOUSEBUTTONDOWN:
+    row, column = Chessboard.convertPosToArray(event.pos[0], event.pos[1])
+    putChessOnBoard(row, column)
+    pygame.display.update()
+  pass
+
+
+def putChessOnBoard(row, column):
+  # pass
+  print(row,column)
+  if Human!=None:
+    Human.give_input(boardData.row-1-column,row)
+  # Human.give_input(row,column)
+  # isWin = boardData.putChess(row, column)
+  # if isWin != False:
+  #   chessNew = chess(screen, Color.WHITE if boardData.thisTurn else Color.BLACK, row, column)
+  #   print(row,column)
+  # print(isWin)
+  # if isWin:
+  #   tkinter.messagebox.askokcancel(title="Who Won?", message="White won" if boardData.thisTurn else "Black won");
+  #   init_game()
+  # return isWin
+
+def showChess():
+  for i in range(boardData.row):
+    for j in range(boardData.column):
+    if boardData.getBoard()[i][j]==1:
+      chessNew=chess(screen, Color.WHITE , i, j)
+    elif boardData.getBoard()[i][j]==-1:
+      chessNew = chess(screen, Color.BLACK, i, j)
+  pygame.display.update()
+
+# 控制游戏进程
+def open_UI():
+
+  # init_game()
+  while True:
+    sleep(0.5)
+    for event in pygame.event.get():
+    if event.type == QUIT:
+      exit()
+    else:
+      checkEvent(event)
+
+
+
+if __name__=="__main__":
+  open_UI()
+  \end{lstlisting}\par
+  BoardData.py
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+    # author:白炎拉力
+
+import numpy as np
+from enum import Enum
+
+
+class Chess(Enum):
+  White = 1
+  Black = -1
+
+
+class BoardData:
+  # in array board, 1 means white chess, -1 means black chess, 0 means nothing
+  thisTurn = False  # this turn is true when it's white chess ready to put
+
+  def __init__(self, row, column):
+    self.row = row
+    self.column = column
+    print([row, column])
+    self.board = np.zeros((row, column), dtype=int)
+
+  def getBoard(self):
+    # print(self.board)
+    return self.board
+
+  def transportToBoardData(self, boardFromGame):
+    for location in boardFromGame.states:
+    x=self.row - 1 - location // self.row
+    y=location % self.row
+    # temp=x
+    # x=(self.row-1)-y
+    # y=(self.row-1)-temp
+    temp=x
+    x=y
+    y=temp
+    if boardFromGame.states[location] == 1:
+      self.board[x][y] = 1
+    elif boardFromGame.states[location] == 2:
+      self.board[x][y] = -1
+    else:
+      self.board[x][y] = 0
+
+  def putChess(self, row, column):
+    if row >= self.row or column >= self.column or row < 0 or column < 0:
+    return False
+    if self.board[row, column] == 0:
+    if self.thisTurn:
+      self.board[row, column] = 1
+    else:
+      self.board[row, column] = -1
+    if self.checkWin(row, column):
+      return True
+    self.thisTurn = not self.thisTurn
+    else:
+    return False
+
+  def checkWinAll(self):
+    for row in range(len(self.board)):
+    for column in range(len(self.board[0])):
+      if self.checkWin(row, column):
+        return True
+    return False
+
+  def checkWin(self, row, column):
+    color = self.board[row, column]
+    directions = ((1, 0), (0, 1), (1, 1), (1, -1))
+    if (color == 0): return False
+    for direction in directions:
+    count = 1
+    step = 1
+    while self.inBound(row + direction[0] * step, column + direction[1] * step) and color == self.board[
+      row + direction[0] * step, column + direction[1] * step]:
+      count += 1
+      step += 1
+      if count == 5: return True
+    step = 1
+    while self.inBound(row - direction[0] * step, column - direction[1] * step) and color == self.board[
+      row - direction[0] * step, column - direction[1] * step]:
+      count += 1
+      step += 1
+      if count == 5: return True
+
+  def inBound(self, row, column):
+    if 0 <= row < len(self.board) and 0 <= column < len(self.board[0]):
+    return True
+    else:
+    return False
+
+
+if __name__ == '__main__':
+  board = BoardData(5, 5)
+  for i in range(5):
+    board.putChess(0, i)
+    print(board.checkWinAll())
+    board.putChess(1, i)
+    board.getBoard()
+  \end{lstlisting}
+  \subsection{AI}
+  policy\_value\_net\_pytorch.py训练模型
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+  # -*- coding: utf-8 -*-
+"""
+An implementation of the policyValueNet in PyTorch
+Tested in PyTorch 0.2.0 and 0.3.0
+
+"""
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.nn.functional as F
+from torch.autograd import Variable
+import numpy as np
+
+
+def set_learning_rate(optimizer, lr):
+  """Sets the learning rate to the given value"""
+  for param_group in optimizer.param_groups:
+    param_group['lr'] = lr
+
+
+class Net(nn.Module):
+  """policy-value network module"""
+  def __init__(self, board_width, board_height):
+    super(Net, self).__init__()
+
+    self.board_width = board_width
+    self.board_height = board_height
+    # common layers
+    self.conv1 = nn.Conv2d(4, 32, kernel_size=3, padding=1)
+    self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
+    self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
+    # action policy layers
+    self.act_conv1 = nn.Conv2d(128, 4, kernel_size=1)
+    self.act_fc1 = nn.Linear(4*board_width*board_height,
+           board_width*board_height)
+    # state value layers
+    self.val_conv1 = nn.Conv2d(128, 2, kernel_size=1)
+    self.val_fc1 = nn.Linear(2*board_width*board_height, 64)
+    self.val_fc2 = nn.Linear(64, 1)
+
+  def forward(self, state_input):
+    # common layers
+    x = F.relu(self.conv1(state_input))
+    x = F.relu(self.conv2(x))
+    x = F.relu(self.conv3(x))
+    # action policy layers
+    x_act = F.relu(self.act_conv1(x))
+    x_act = x_act.view(-1, 4*self.board_width*self.board_height)
+    x_act = F.log_softmax(self.act_fc1(x_act))
+    # state value layers
+    x_val = F.relu(self.val_conv1(x))
+    x_val = x_val.view(-1, 2*self.board_width*self.board_height)
+    x_val = F.relu(self.val_fc1(x_val))
+    x_val = F.tanh(self.val_fc2(x_val))
+    return x_act, x_val
+
+
+class PolicyValueNet():
+  """policy-value network """
+  def __init__(self, board_width, board_height,
+       model_file=None, use_gpu=False):
+    self.use_gpu = use_gpu
+    self.board_width = board_width
+    self.board_height = board_height
+    self.l2_const = 1e-4  # coef of l2 penalty
+    # the policy value net module
+    if self.use_gpu:
+    self.policy_value_net = Net(board_width, board_height).cuda()
+    else:
+    self.policy_value_net = Net(board_width, board_height)
+    self.optimizer = optim.Adam(self.policy_value_net.parameters(),
+            weight_decay=self.l2_const)
+
+    if model_file:
+    net_params = torch.load(model_file)
+    self.policy_value_net.load_state_dict(net_params)
+
+  def policy_value(self, state_batch):
+    """
+    input: a batch of states
+    output: a batch of action probabilities and state values
+    """
+    if self.use_gpu:
+    state_batch = Variable(torch.FloatTensor(state_batch).cuda())
+    log_act_probs, value = self.policy_value_net(state_batch)
+    act_probs = np.exp(log_act_probs.data.cpu().numpy())
+    return act_probs, value.data.cpu().numpy()
+    else:
+    state_batch = Variable(torch.FloatTensor(state_batch))
+    log_act_probs, value = self.policy_value_net(state_batch)
+    act_probs = np.exp(log_act_probs.data.numpy())
+    return act_probs, value.data.numpy()
+
+  def policy_value_fn(self, board):
+    """
+    input: board
+    output: a list of (action, probability) tuples for each available
+    action and the score of the board state
+    """
+    legal_positions = board.availables
+    current_state = np.ascontiguousarray(board.current_state().reshape(
+      -1, 4, self.board_width, self.board_height))
+    if self.use_gpu:
+    log_act_probs, value = self.policy_value_net(
+        Variable(torch.from_numpy(current_state)).cuda().float())
+    act_probs = np.exp(log_act_probs.data.cpu().numpy().flatten())
+    else:
+    log_act_probs, value = self.policy_value_net(
+        Variable(torch.from_numpy(current_state)).float())
+    act_probs = np.exp(log_act_probs.data.numpy().flatten())
+    act_probs = zip(legal_positions, act_probs[legal_positions])
+    value = value.data[0][0]
+    return act_probs, value
+
+  def train_step(self, state_batch, mcts_probs, winner_batch, lr):
+    """perform a training step"""
+    # wrap in Variable
+    if self.use_gpu:
+    state_batch = Variable(torch.FloatTensor(state_batch).cuda())
+    mcts_probs = Variable(torch.FloatTensor(mcts_probs).cuda())
+    winner_batch = Variable(torch.FloatTensor(winner_batch).cuda())
+    else:
+    state_batch = Variable(torch.FloatTensor(state_batch))
+    mcts_probs = Variable(torch.FloatTensor(mcts_probs))
+    winner_batch = Variable(torch.FloatTensor(winner_batch))
+
+    # zero the parameter gradients
+    self.optimizer.zero_grad()
+    # set learning rate
+    set_learning_rate(self.optimizer, lr)
+
+    # forward
+    log_act_probs, value = self.policy_value_net(state_batch)
+    # define the loss = (z - v)^2 - pi^T * log(p) + c||theta||^2
+    # Note: the L2 penalty is incorporated in optimizer
+    value_loss = F.mse_loss(value.view(-1), winner_batch)
+    policy_loss = -torch.mean(torch.sum(mcts_probs*log_act_probs, 1))
+    loss = value_loss + policy_loss
+    # backward and optimize
+    loss.backward()
+    self.optimizer.step()
+    # calc policy entropy, for monitoring only
+    entropy = -torch.mean(
+      torch.sum(torch.exp(log_act_probs) * log_act_probs, 1)
+      )
+    # return loss.data[0], entropy.data[0]
+    #for pytorch version >= 0.5 please use the following line instead.
+    return loss.item(), entropy.item()
+
+
+  def get_policy_param(self):
+    net_params = self.policy_value_net.state_dict()
+    return net_params
+
+  def save_model(self, model_file):
+    """ save model params to file """
+    net_params = self.get_policy_param()  # get model params
+    torch.save(net_params, model_file)
+  \end{lstlisting}
+  游戏进程
+  game.py
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+from __future__ import print_function
+import numpy as np
+from tkinter import messagebox
+import UI.UI_Board
+import sys
+import threading
+
+
+
+class Board(object):
+  """board for the game"""
+
+  def __init__(self, **kwargs):
+    self.width = int(kwargs.get('width', 8))
+    self.height = int(kwargs.get('height', 8))
+    # board states stored as a dict,
+    # key: move as location on the board,
+    # value: player as pieces type
+    self.states = {}
+    # need how many pieces in a row to win
+    self.n_in_row = int(kwargs.get('n_in_row', 5))
+    self.players = [1, 2]  # player1 and player2
+
+  def init_board(self, start_player=0):
+    if self.width < self.n_in_row or self.height < self.n_in_row:
+    raise Exception('board width and height can not be '
+          'less than {}'.format(self.n_in_row))
+    self.current_player = self.players[start_player]  # start player
+    # keep available moves in a list
+    self.availables = list(range(self.width * self.height))
+    self.states = {}
+    self.last_move = -1
+
+  def move_to_location(self, move):
+    """
+    3*3 board's moves like:
+    6 7 8
+    3 4 5
+    0 1 2
+    and move 5's location is (1,2)
+    """
+    h = move // self.width
+    w = move % self.width
+    return [h, w]
+
+  def location_to_move(self, location):
+    if len(location) != 2:
+    return -1
+    h = location[0]
+    w = location[1]
+    move = h * self.width + w
+    if move not in range(self.width * self.height):
+    return -1
+    return move
+
+  def current_state(self):
+    """return the board state from the perspective of the current player.
+    state shape: 4*width*height
+    """
+
+    square_state = np.zeros((4, self.width, self.height))
+    if self.states:
+    moves, players = np.array(list(zip(*self.states.items())))
+    move_curr = moves[players == self.current_player]
+    move_oppo = moves[players != self.current_player]
+    square_state[0][move_curr // self.width,
+          move_curr % self.height] = 1.0
+    square_state[1][move_oppo // self.width,
+          move_oppo % self.height] = 1.0
+    # indicate the last move location
+    square_state[2][self.last_move // self.width,
+          self.last_move % self.height] = 1.0
+    if len(self.states) % 2 == 0:
+    square_state[3][:, :] = 1.0  # indicate the colour to play
+    return square_state[:, ::-1, :]
+
+  def do_move(self, move):
+    if(move==None):return
+    self.states[move] = self.current_player
+    self.availables.remove(move)
+    self.current_player = (
+    self.players[0] if self.current_player == self.players[1]
+    else self.players[1]
+    )
+    self.last_move = move
+
+  def has_a_winner(self):
+    width = self.width
+    height = self.height
+    states = self.states
+    n = self.n_in_row
+
+    moved = list(set(range(width * height)) - set(self.availables))
+    if len(moved) < self.n_in_row *2-1:
+    return False, -1
+
+    for m in moved:
+    h = m // width
+    w = m % width
+    player = states[m]
+
+    if (w in range(width - n + 1) and
+        len(set(states.get(i, -1) for i in range(m, m + n))) == 1):
+      return True, player
+
+    if (h in range(height - n + 1) and
+        len(set(states.get(i, -1) for i in range(m, m + n * width, width))) == 1):
+      return True, player
+
+    if (w in range(width - n + 1) and h in range(height - n + 1) and
+        len(set(states.get(i, -1) for i in range(m, m + n * (width + 1), width + 1))) == 1):
+      return True, player
+
+    if (w in range(n - 1, width) and h in range(height - n + 1) and
+        len(set(states.get(i, -1) for i in range(m, m + n * (width - 1), width - 1))) == 1):
+      return True, player
+
+    return False, -1
+
+  def game_end(self):
+    """Check whether the game is ended or not"""
+    win, winner = self.has_a_winner()
+    if win:
+    return True, winner
+    elif not len(self.availables):
+    return True, -1
+    return False, -1
+
+  def get_current_player(self):
+    return self.current_player
+
+
+class Game(object):
+  """game server"""
+
+  def __init__(self, board, **kwargs):
+    self.board = board  # type: Board
+
+
+
+
+  def showUI(self,board):
+    UI.UI_Board.updateBoard(board)
+    # globalVar.get_value("boardData").transportToBoardData(board)
+    # UI.UI_Board.boardData.transportToBoardData(board)
+    # UI.UI_Board.showChess()
+    pass
+
+
+
+  def graphic(self, board, player1, player2):
+    """Draw the board and show game info"""
+
+    self.showUI(board)
+
+    width = board.width
+    height = board.height
+
+    print("Player", player1, "with X".rjust(3))
+    print("Player", player2, "with O".rjust(3))
+    print()
+    for x in range(width):
+    print("{0:8}".format(x), end='')
+    print('\r\n')
+    for i in range(height - 1, -1, -1):
+    print("{0:4d}".format(i), end='')
+    for j in range(width):
+      loc = i * width + j
+      p = board.states.get(loc, -1)
+      if p == player1:
+        print('X'.center(8), end='')
+      elif p == player2:
+        print('O'.center(8), end='')
+      else:
+        print('_'.center(8), end='')
+    print('\r\n\r\n')
+
+  def start_play(self, player1, player2, start_player=0, is_shown=1):
+    """start a game between two players"""
+    if start_player not in (0, 1):
+    raise Exception('start_player should be either 0 (player1 first) '
+          'or 1 (player2 first)')
+    self.board.init_board(start_player)
+    UI.UI_Board.set_human(None)
+    UI.UI_Board.init_game()
+    t2=threading.Thread(target=self.start_play1,args=(player1, player2, start_player, is_shown) )
+    t2.start()
+    target=threading.Thread(target=UI.UI_Board.open_UI())
+    target.start()
+
+  def start_play1(self,player1, player2, start_player=0, is_shown=1):
+    p1, p2 = self.board.players
+    player1.set_player_ind(p1)
+    player2.set_player_ind(p2)
+    players = {p1: player1, p2: player2}
+    if is_shown:
+    self.graphic(self.board, player1.player, player2.player)
+    while True:
+    current_player = self.board.get_current_player()
+    player_in_turn = players[current_player]
+    if(type(player_in_turn).__name__=="Human"):
+      UI.UI_Board.set_human(player_in_turn)
+    #TODO: Change the action
+    move = player_in_turn.get_action(self.board)
+    if move==None:
+      continue
+    self.board.do_move(move)
+    if is_shown:
+      self.graphic(self.board, player1.player, player2.player)
+    end, winner = self.board.game_end()
+    if end:
+      if is_shown:
+        if winner != -1:
+        print("Game end. Winner is", players[winner])
+        if(winner == 1):
+          messagebox.showinfo('You win', '恭喜您获胜')
+        else:
+          messagebox.showinfo('You lose','您输了')
+        else:
+        print("Game end. Tie")
+      return winner
+
+  def start_self_play(self, player, is_shown=0, temp=1e-3):
+    """ start a self-play game using a MCTS player, reuse the search tree,
+    and store the self-play data: (state, mcts_probs, z) for training
+    """
+    self.board.init_board()
+    p1, p2 = self.board.players
+    states, mcts_probs, current_players = [], [], []
+    while True:
+    move, move_probs = player.get_action(self.board,
+                 temp=temp,
+                 return_prob=1)
+    # store the data
+    states.append(self.board.current_state())
+    mcts_probs.append(move_probs)
+    current_players.append(self.board.current_player)
+    # perform a move
+    self.board.do_move(move)
+    if is_shown:
+      self.graphic(self.board, p1, p2)
+    end, winner = self.board.game_end()
+    if end:
+      # winner from the perspective of the current player of each state
+      winners_z = np.zeros(len(current_players))
+      if winner != -1:
+        winners_z[np.array(current_players) == winner] = 1.0
+        winners_z[np.array(current_players) != winner] = -1.0
+      # reset MCTS root node
+      player.reset_player()
+      if is_shown:
+        if winner != -1:
+        print("Game end. Winner is player:", winner)
+        else:
+        print("Game end. Tie")
+      return winner, zip(states, mcts_probs, winners_z)
+  \end{lstlisting}
+  价值网络矩阵policy\_value\_net\_numpy.py
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+  # -*- coding: utf-8 -*-
+"""
+Implement the policy value network using numpy, so that we can play with the
+trained AI model without installing any DL framwork
+
+"""
+
+from __future__ import print_function
+import numpy as np
+
+
+# some utility functions
+def softmax(x):
+  probs = np.exp(x - np.max(x))
+  probs /= np.sum(probs)
+  return probs
+
+
+def relu(X):
+  out = np.maximum(X, 0)
+  return out
+
+
+def conv_forward(X, W, b, stride=1, padding=1):
+  n_filters, d_filter, h_filter, w_filter = W.shape
+  # theano conv2d flips the filters (rotate 180 degree) first
+  # while doing the calculation
+  W = W[:, :, ::-1, ::-1]
+  n_x, d_x, h_x, w_x = X.shape
+  h_out = (h_x - h_filter + 2 * padding) / stride + 1
+  w_out = (w_x - w_filter + 2 * padding) / stride + 1
+  h_out, w_out = int(h_out), int(w_out)
+  X_col = im2col_indices(X, h_filter, w_filter,
+         padding=padding, stride=stride)
+  W_col = W.reshape(n_filters, -1)
+  out = (np.dot(W_col, X_col).T + b).T
+  out = out.reshape(n_filters, h_out, w_out, n_x)
+  out = out.transpose(3, 0, 1, 2)
+  return out
+
+
+def fc_forward(X, W, b):
+  out = np.dot(X, W) + b
+  return out
+
+
+def get_im2col_indices(x_shape, field_height,
+         field_width, padding=1, stride=1):
+  # First figure out what the size of the output should be
+  N, C, H, W = x_shape
+  assert (H + 2 * padding - field_height) % stride == 0
+  assert (W + 2 * padding - field_height) % stride == 0
+  out_height = int((H + 2 * padding - field_height) / stride + 1)
+  out_width = int((W + 2 * padding - field_width) / stride + 1)
+
+  i0 = np.repeat(np.arange(field_height), field_width)
+  i0 = np.tile(i0, C)
+  i1 = stride * np.repeat(np.arange(out_height), out_width)
+  j0 = np.tile(np.arange(field_width), field_height * C)
+  j1 = stride * np.tile(np.arange(out_width), out_height)
+  i = i0.reshape(-1, 1) + i1.reshape(1, -1)
+  j = j0.reshape(-1, 1) + j1.reshape(1, -1)
+
+  k = np.repeat(np.arange(C), field_height * field_width).reshape(-1, 1)
+
+  return (k.astype(int), i.astype(int), j.astype(int))
+
+
+def im2col_indices(x, field_height, field_width, padding=1, stride=1):
+  """ An implementation of im2col based on some fancy indexing """
+  # Zero-pad the input
+  p = padding
+  x_padded = np.pad(x, ((0, 0), (0, 0), (p, p), (p, p)), mode='constant')
+
+  k, i, j = get_im2col_indices(x.shape, field_height,
+           field_width, padding, stride)
+
+  cols = x_padded[:, k, i, j]
+  C = x.shape[1]
+  cols = cols.transpose(1, 2, 0).reshape(field_height * field_width * C, -1)
+  return cols
+
+
+class PolicyValueNetNumpy():
+  """policy-value network in numpy """
+  def __init__(self, board_width, board_height, net_params):
+    self.board_width = board_width
+    self.board_height = board_height
+    self.params = net_params
+
+  def policy_value_fn(self, board):
+    """
+    input: board
+    output: a list of (action, probability) tuples for each available
+    action and the score of the board state
+    """
+    legal_positions = board.availables
+    current_state = board.current_state()
+
+    X = current_state.reshape(-1, 4, self.board_width, self.board_height)
+    # first 3 conv layers with ReLu nonlinearity
+    for i in [0, 2, 4]:
+    X = relu(conv_forward(X, self.params[i], self.params[i+1]))
+    # policy head
+    X_p = relu(conv_forward(X, self.params[6], self.params[7], padding=0))
+    X_p = fc_forward(X_p.flatten(), self.params[8], self.params[9])
+    act_probs = softmax(X_p)
+    # value head
+    X_v = relu(conv_forward(X, self.params[10],
+            self.params[11], padding=0))
+    X_v = relu(fc_forward(X_v.flatten(), self.params[12], self.params[13]))
+    value = np.tanh(fc_forward(X_v, self.params[14], self.params[15]))[0]
+    act_probs = zip(legal_positions, act_probs.flatten()[legal_positions])
+    return act_probs, value
+  \end{lstlisting}
+  MCTS模型实现
+  \begin{lstlisting}[language=Python,breaklines = true,columns=flexible]
+  # -*- coding: utf-8 -*-
+"""
+A pure implementation of the Monte Carlo Tree Search (MCTS)
+
+"""
+
+import numpy as np
+import copy
+from operator import itemgetter
+
+
+def rollout_policy_fn(board):
+  """a coarse, fast version of policy_fn used in the rollout phase."""
+  # rollout randomly
+  action_probs = np.random.rand(len(board.availables))
+  return zip(board.availables, action_probs)
+
+
+def policy_value_fn(board):
+  """a function that takes in a state and outputs a list of (action, probability)
+  tuples and a score for the state"""
+  # return uniform probabilities and 0 score for pure MCTS
+  action_probs = np.ones(len(board.availables))/len(board.availables)
+  return zip(board.availables, action_probs), 0
+
+
+class TreeNode(object):
+  """A node in the MCTS tree. Each node keeps track of its own value Q,
+  prior probability P, and its visit-count-adjusted prior score u.
+  """
+
+  def __init__(self, parent, prior_p):
+    self._parent = parent
+    self._children = {}  # a map from action to TreeNode
+    self._n_visits = 0
+    self._Q = 0
+    self._u = 0
+    self._P = prior_p
+
+  def expand(self, action_priors):
+    """Expand tree by creating new children.
+    action_priors: a list of tuples of actions and their prior probability
+    according to the policy function.
+    """
+    for action, prob in action_priors:
+    if action not in self._children:
+      self._children[action] = TreeNode(self, prob)
+
+  def select(self, c_puct):
+    """Select action among children that gives maximum action value Q
+    plus bonus u(P).
+    Return: A tuple of (action, next_node)
+    """
+    return max(self._children.items(),
+       key=lambda act_node: act_node[1].get_value(c_puct))
+
+  def update(self, leaf_value):
+    """Update node values from leaf evaluation.
+    leaf_value: the value of subtree evaluation from the current player's
+    perspective.
+    """
+    # Count visit.
+    self._n_visits += 1
+    # Update Q, a running average of values for all visits.
+    self._Q += 1.0*(leaf_value - self._Q) / self._n_visits
+
+  def update_recursive(self, leaf_value):
+    """Like a call to update(), but applied recursively for all ancestors.
+    """
+    # If it is not root, this node's parent should be updated first.
+    if self._parent:
+    self._parent.update_recursive(-leaf_value)
+    self.update(leaf_value)
+
+  def get_value(self, c_puct):
+    """Calculate and return the value for this node.
+    It is a combination of leaf evaluations Q, and this node's prior
+    adjusted for its visit count, u.
+    c_puct: a number in (0, inf) controlling the relative impact of
+    value Q, and prior probability P, on this node's score.
+    """
+    self._u = (c_puct * self._P *
+       np.sqrt(self._parent._n_visits) / (1 + self._n_visits))
+    return self._Q + self._u
+
+  def is_leaf(self):
+    """Check if leaf node (i.e. no nodes below this have been expanded).
+    """
+    return self._children == {}
+
+  def is_root(self):
+    return self._parent is None
+
+
+class MCTS(object):
+  """A simple implementation of Monte Carlo Tree Search."""
+
+  def __init__(self, policy_value_fn, c_puct=5, n_playout=10000):
+    """
+    policy_value_fn: a function that takes in a board state and outputs
+    a list of (action, probability) tuples and also a score in [-1, 1]
+    (i.e. the expected value of the end game score from the current
+    player's perspective) for the current player.
+    c_puct: a number in (0, inf) that controls how quickly exploration
+    converges to the maximum-value policy. A higher value means
+    relying on the prior more.
+    """
+    self._root = TreeNode(None, 1.0)
+    self._policy = policy_value_fn
+    self._c_puct = c_puct
+    self._n_playout = n_playout
+
+  def _playout(self, state):
+    """Run a single playout from the root to the leaf, getting a value at
+    the leaf and propagating it back through its parents.
+    State is modified in-place, so a copy must be provided.
+    """
+    node = self._root
+    while(1):
+    if node.is_leaf():
+
+      break
+    # Greedily select next move.
+    action, node = node.select(self._c_puct)
+    state.do_move(action)
+
+    action_probs, _ = self._policy(state)
+    # Check for end of game
+    end, winner = state.game_end()
+    if not end:
+    node.expand(action_probs)
+    # Evaluate the leaf node by random rollout
+    leaf_value = self._evaluate_rollout(state)
+    # Update value and visit count of nodes in this traversal.
+    node.update_recursive(-leaf_value)
+
+  def _evaluate_rollout(self, state, limit=1000):
+    """Use the rollout policy to play until the end of the game,
+    returning +1 if the current player wins, -1 if the opponent wins,
+    and 0 if it is a tie.
+    """
+    player = state.get_current_player()
+    for i in range(limit):
+    end, winner = state.game_end()
+    if end:
+      break
+    action_probs = rollout_policy_fn(state)
+    max_action = max(action_probs, key=itemgetter(1))[0]
+    state.do_move(max_action)
+    else:
+    # If no break from the loop, issue a warning.
+    print("WARNING: rollout reached move limit")
+    if winner == -1:  # tie
+    return 0
+    else:
+    return 1 if winner == player else -1
+
+  def get_move(self, state):
+    """Runs all playouts sequentially and returns the most visited action.
+    state: the current game state
+
+    Return: the selected action
+    """
+    for n in range(self._n_playout):
+    state_copy = copy.deepcopy(state)
+    self._playout(state_copy)
+    return max(self._root._children.items(),
+       key=lambda act_node: act_node[1]._n_visits)[0]
+
+  def update_with_move(self, last_move):
+    """Step forward in the tree, keeping everything we already know
+    about the subtree.
+    """
+    if last_move in self._root._children:
+    self._root = self._root._children[last_move]
+    self._root._parent = None
+    else:
+    self._root = TreeNode(None, 1.0)
+
+  def __str__(self):
+    return "MCTS"
+
+
+class MCTSPlayer(object):
+  """AI player based on MCTS"""
+  def __init__(self, c_puct=5, n_playout=2000):
+    self.mcts = MCTS(policy_value_fn, c_puct, n_playout)
+
+  def set_player_ind(self, p):
+    self.player = p
+
+  def reset_player(self):
+    self.mcts.update_with_move(-1)
+
+  def get_action(self, board):
+    sensible_moves = board.availables
+    if len(sensible_moves) > 0:
+    move = self.mcts.get_move(board)
+    self.mcts.update_with_move(-1)
+    return move
+    else:
+    print("WARNING: the board is full")
+
+  def __str__(self):
+    return "MCTS {}".format(self.player)
+    # -*- coding: utf-8 -*-
+"""
+Monte Carlo Tree Search in AlphaGo Zero style, which uses a policy-value
+network to guide the tree search and evaluate the leaf nodes
+
+"""
+
+import numpy as np
+import copy
+
+
+def softmax(x):
+  probs = np.exp(x - np.max(x))
+  probs /= np.sum(probs)
+  return probs
+
+
+class TreeNode(object):
+  """A node in the MCTS tree.
+
+  Each node keeps track of its own value Q, prior probability P, and
+  its visit-count-adjusted prior score u.
+  """
+
+  def __init__(self, parent, prior_p):
+    self._parent = parent
+    self._children = {}  # a map from action to TreeNode
+    self._n_visits = 0
+    self._Q = 0
+    self._u = 0
+    self._P = prior_p
+
+  def expand(self, action_priors):
+    """Expand tree by creating new children.
+    action_priors: a list of tuples of actions and their prior probability
+    according to the policy function.
+    """
+    for action, prob in action_priors:
+    if action not in self._children:
+      self._children[action] = TreeNode(self, prob)
+
+  def select(self, c_puct):
+    """Select action among children that gives maximum action value Q
+    plus bonus u(P).
+    Return: A tuple of (action, next_node)
+    """
+    return max(self._children.items(),
+       key=lambda act_node: act_node[1].get_value(c_puct))
+
+  def update(self, leaf_value):
+    """Update node values from leaf evaluation.
+    leaf_value: the value of subtree evaluation from the current player's
+    perspective.
+    """
+    # Count visit.
+    self._n_visits += 1
+    # Update Q, a running average of values for all visits.
+    self._Q += 1.0*(leaf_value - self._Q) / self._n_visits
+
+  def update_recursive(self, leaf_value):
+    """Like a call to update(), but applied recursively for all ancestors.
+    """
+    # If it is not root, this node's parent should be updated first.
+    if self._parent:
+    self._parent.update_recursive(-leaf_value)
+    self.update(leaf_value)
+
+  def get_value(self, c_puct):
+    """Calculate and return the value for this node.
+    It is a combination of leaf evaluations Q, and this node's prior
+    adjusted for its visit count, u.
+    c_puct: a number in (0, inf) controlling the relative impact of
+    value Q, and prior probability P, on this node's score.
+    """
+    self._u = (c_puct * self._P *
+       np.sqrt(self._parent._n_visits) / (1 + self._n_visits))
+    return self._Q + self._u
+
+  def is_leaf(self):
+    """Check if leaf node (i.e. no nodes below this have been expanded)."""
+    return self._children == {}
+
+  def is_root(self):
+    return self._parent is None
+
+
+class MCTS(object):
+  """An implementation of Monte Carlo Tree Search."""
+
+  def __init__(self, policy_value_fn, c_puct=5, n_playout=10000):
+    """
+    policy_value_fn: a function that takes in a board state and outputs
+    a list of (action, probability) tuples and also a score in [-1, 1]
+    (i.e. the expected value of the end game score from the current
+    player's perspective) for the current player.
+    c_puct: a number in (0, inf) that controls how quickly exploration
+    converges to the maximum-value policy. A higher value means
+    relying on the prior more.
+    """
+    self._root = TreeNode(None, 1.0)
+    self._policy = policy_value_fn
+    self._c_puct = c_puct
+    self._n_playout = n_playout
+
+  def _playout(self, state):
+    """Run a single playout from the root to the leaf, getting a value at
+    the leaf and propagating it back through its parents.
+    State is modified in-place, so a copy must be provided.
+    """
+    node = self._root
+    while(1):
+    if node.is_leaf():
+      break
+    # Greedily select next move.
+    action, node = node.select(self._c_puct)
+    state.do_move(action)
+
+    # Evaluate the leaf using a network which outputs a list of
+    # (action, probability) tuples p and also a score v in [-1, 1]
+    # for the current player.
+    action_probs, leaf_value = self._policy(state)
+    # Check for end of game.
+    end, winner = state.game_end()
+    if not end:
+    node.expand(action_probs)
+    else:
+    # for end state，return the "true" leaf_value
+    if winner == -1:  # tie
+      leaf_value = 0.0
+    else:
+      leaf_value = (
+        1.0 if winner == state.get_current_player() else -1.0
+      )
+
+    # Update value and visit count of nodes in this traversal.
+    node.update_recursive(-leaf_value)
+
+  def get_move_probs(self, state, temp=1e-3):
+    """Run all playouts sequentially and return the available actions and
+    their corresponding probabilities.
+    state: the current game state
+    temp: temperature parameter in (0, 1] controls the level of exploration
+    """
+    for n in range(self._n_playout):
+    state_copy = copy.deepcopy(state)
+    self._playout(state_copy)
+
+    # calc the move probabilities based on visit counts at the root node
+    act_visits = [(act, node._n_visits)
+        for act, node in self._root._children.items()]
+    acts, visits = zip(*act_visits)
+    act_probs = softmax(1.0/temp * np.log(np.array(visits) + 1e-10))
+
+    return acts, act_probs
+
+  def update_with_move(self, last_move):
+    """Step forward in the tree, keeping everything we already know
+    about the subtree.
+    """
+    if last_move in self._root._children:
+    self._root = self._root._children[last_move]
+    self._root._parent = None
+    else:
+    self._root = TreeNode(None, 1.0)
+
+  def __str__(self):
+    return "MCTS"
+
+
+class MCTSPlayer(object):
+  """AI player based on MCTS"""
+
+  def __init__(self, policy_value_function,
+       c_puct=5, n_playout=2000, is_selfplay=0):
+    self.mcts = MCTS(policy_value_function, c_puct, n_playout)
+    self._is_selfplay = is_selfplay
+
+  def set_player_ind(self, p):
+    self.player = p
+
+  def reset_player(self):
+    self.mcts.update_with_move(-1)
+
+  def get_action(self, board, temp=1e-3, return_prob=0):
+    sensible_moves = board.availables
+    # the pi vector returned by MCTS as in the alphaGo Zero paper
+    move_probs = np.zeros(board.width*board.height)
+    if len(sensible_moves) > 0:
+    acts, probs = self.mcts.get_move_probs(board, temp)
+    move_probs[list(acts)] = probs
+    if self._is_selfplay:
+      # add Dirichlet Noise for exploration (needed for
+      # self-play training)
+      move = np.random.choice(
+        acts,
+        p=0.75*probs + 0.25*np.random.dirichlet(0.3*np.ones(len(probs)))
+      )
+      # update the root node and reuse the search tree
+      self.mcts.update_with_move(move)
+    else:
+      # with the default temp=1e-3, it is almost equivalent
+      # to choosing the move with the highest prob
+      move = np.random.choice(acts, p=probs)
+      # reset the root node
+  self.mcts.update_with_move(-1)
+#      location = board.move_to_location(move)
+#      print("AI move: %d,%d\n" % (location[0], location[1]))
+
+    if return_prob:
+      return move, move_probs
+    else:
+      return move
+    else:
+    print("WARNING: the board is full")
+
+  def __str__(self):
+    return "MCTS {}".format(self.player)
+  \end{lstlisting}
+  其他并不是本工程的主要部分的代码在此加以省略
+  \section{训练情况}
+  在训练的过程中，我们很高兴地看到我们地AI正在不断地“成长”：我们每训练50次就会进行若干次人机对战来确认我们人工智能地的进步。我们的测试员会以十种不同的开局（且这些开局在）与人工智能对战，从而得到当前人工智能的胜率。尽管由于样本数据过小，我们实验得到的数据并不是特别可靠，但它也具有一定的代表性。\par
+·在AI训练了350局后，人机首次与测试员胜率相同；\\
+·在AI训练了600局后，人机与测试员的胜负比首次达到3：2\\
+·在AI训练了1150局后，人机与测试员的胜负比首次达到4：1\\
+......\\
+本次AI一共训练1200局，最后的胜负比稳定在4：1左右。由于人工测试的主观性，所以我们并没有找到相关的论文来证实我们的结果是否有偏差。但通过我们对已训练完成的策略价值网络的分析以及实战数据，我们认为这一结果还是具有相当的可靠性的。\par
+  \section{结束语}
+  \subsection{研究总结}
+  1.	本组对棋类博弈人工智能的发展历程进行了了解，学习了博弈树、局面评估函数、卡罗蒙特树等相关算法，对当代的五子棋AI进行研究分析，从而确定了本组的研究目标与研究方向。\par
 2.	本组开展了对自我学习算法的探索与实践，将蒙特卡洛树搜索与自我对局相结合，提高了训练数据的有效度。同时对博弈树进行了一定的剪枝，降低了博弈树搜索的时间复杂度，减少了不必要学习的局面。\par
 3.	本组利用卷积神经网络进行模型的构筑，并且在此之上基于策略价值网络的设计，在一定程度上消除了传统方法带来的缺陷与不足。同时利用数据的扩充和反向传播算法的改进，实现了AI的自我学习能力。\par
-    \subsection{工作展望}
-    1.	由于本组未使用拥有足够强算力的计算机以及时间问题，本组的人工智能并未达到一个很高的层次，我们的人工智能还存在巨大的提升空间，本组可能在将来继续进行对该人工智能的训练。\par
-    2.	本文对于剪枝算法和蒙特卡洛树的研究并不透彻，其中存在大量未被使用的剪枝算法可以用于提升人工智能的AI，故在这一方面还需进行更进一步的研究。\par
-    \newpage
-    \addcontentsline{toc}{section}{参考文献}
-    \begin{thebibliography}{30}%参考文献
-    \bibitem{ref1}{李金洪\ 深度学习之TensorFlow\ [M]\ .北京.机械工业出版社, 2018-3}
-    \bibitem{b1}{ 陈东焰,陆畅.从AlphaGo看机器学习[J].科技创新导报,2020,17(13):146-148. }
-    \bibitem{b3}{百度百科 AlphaGo }
-    \bibitem{b2}{计算机围棋AlphaGo算法对人类围棋算法的影响[J]. 程思雨,林锋.  中国科技信息. 2019(02)}
-    \bibitem{ref2}{naka. J., The weakest Othello, Takujin Yoshida.Thoroughly dig into the inside of the development!(2019-7-25) [2020-09-01]https://ai-trend.jp/business-article/interview/othello-cto-interview}
-    \bibitem{ref3}{菜鸟教程 python基础教程 https://www.runoob.com/
-    python/python-tutorial.html}
-    \bibitem{ref4}{董慧颖;王杨．多种搜索算法的五子棋博弈算法研究[J]．沈阳理工大学学报，2017,2}
-    \bibitem{k1}{沈大旺.基于人工智能的五子棋搜索算法[J].产业与科技论坛,2020,19(01):73-74.
+  \subsection{工作展望}
+  1.	由于本组未使用拥有足够强算力的计算机以及时间问题，本组的人工智能并未达到一个很高的层次，我们的人工智能还存在巨大的提升空间，本组可能在将来继续进行对该人工智能的训练。\par
+  2.	本文对于剪枝算法和蒙特卡洛树的研究并不透彻，其中存在大量未被使用的剪枝算法可以用于提升人工智能的AI，故在这一方面还需进行更进一步的研究。\par
+  \newpage
+  \addcontentsline{toc}{section}{参考文献}
+  \begin{thebibliography}{30}%参考文献
+  \bibitem{ref1}{李金洪\ 深度学习之TensorFlow\ [M]\ .北京.机械工业出版社, 2018-3}
+  \bibitem{b1}{ 陈东焰,陆畅.从AlphaGo看机器学习[J].科技创新导报,2020,17(13):146-148. }
+  \bibitem{b3}{百度百科 AlphaGo }
+  \bibitem{b2}{计算机围棋AlphaGo算法对人类围棋算法的影响[J]. 程思雨,林锋.  中国科技信息. 2019(02)}
+  \bibitem{ref2}{naka. J., The weakest Othello, Takujin Yoshida.Thoroughly dig into the inside of the development!(2019-7-25) [2020-09-01]https://ai-trend.jp/business-article/interview/othello-cto-interview}
+  \bibitem{ref3}{菜鸟教程 python基础教程 https://www.runoob.com/
+  python/python-tutorial.html}
+  \bibitem{ref4}{董慧颖;王杨．多种搜索算法的五子棋博弈算法研究[J]．沈阳理工大学学报，2017,2}
+  \bibitem{k1}{沈大旺.基于人工智能的五子棋搜索算法[J].产业与科技论坛,2020,19(01):73-74.
 http://nooverfit.com/wp/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A0%91%E6%90%9C%E7%B4%A2-mcts-%E5%85%A5%E9%97%A8/
 }
-    \bibitem{k2}{知乎;匿名用户 蒙特卡洛树是什么算法？2017-05-09 https://www.zhihu.com/question/39916945}
-    \bibitem{k3}{刘建平Pinard的博客 强化学习(十八) 基于模拟的搜索与蒙特卡罗树搜索(MCTS) 2019-03-04 https://www.cnblogs.com/pinard/p/10470571.html}
-    \bibitem{k4}{yif25博客 蒙特卡罗树搜索（MCTS）2018-01-17 16:07 https://www.cnblogs.com/yifdu25/p/8303462.html}
-    \bibitem{k5}{知乎; Xiaohu Zhu 蒙特卡洛树搜索简介 https://zhuanlan.zhihu.com/p/30316076}
-    \bibitem{k6}{基于蒙特卡洛树搜索的计算机围棋博弈研究[D]. 于永波.大连海事大学 2015}
-    \bibitem{k7}{林华. 基于Self-Play的五子棋智能博弈机器人[D].浙江大学,2019.}
-    \bibitem{k8}{知乎 叉色-xsir 五子棋的谱库设计与实现 https://zhuanlan.zhihu.com/p/88598278}
-    \bibitem{k9}{李昊. 五子棋人机博弈算法优化研究与实现[D].大连海事大学,2020.}
-    \bibitem{k10}{David Silver, Aja Huang.Mastering the game of Go with deep neural networks and tree search[J].Nature, 2016, 14(3)}
-    \bibitem{AI1}{扶潇. 基于机器学习的围棋策略网络模型的数据优化[D].北京邮电大学,2017.}
-    \bibitem{AI2}{CSDN BBlue-Sky AlphaGo Zero详解 https://
-    blog.csdn.net/qq\_33813365/article/\par
-    details/103344018}
+  \bibitem{k2}{知乎;匿名用户 蒙特卡洛树是什么算法？2017-05-09 https://www.zhihu.com/question/39916945}
+  \bibitem{k3}{刘建平Pinard的博客 强化学习(十八) 基于模拟的搜索与蒙特卡罗树搜索(MCTS) 2019-03-04 https://www.cnblogs.com/pinard/p/10470571.html}
+  \bibitem{k4}{yif25博客 蒙特卡罗树搜索（MCTS）2018-01-17 16:07 https://www.cnblogs.com/yifdu25/p/8303462.html}
+  \bibitem{k5}{知乎; Xiaohu Zhu 蒙特卡洛树搜索简介 https://zhuanlan.zhihu.com/p/30316076}
+  \bibitem{k6}{基于蒙特卡洛树搜索的计算机围棋博弈研究[D]. 于永波.大连海事大学 2015}
+  \bibitem{k7}{林华. 基于Self-Play的五子棋智能博弈机器人[D].浙江大学,2019.}
+  \bibitem{k8}{知乎 叉色-xsir 五子棋的谱库设计与实现 https://zhuanlan.zhihu.com/p/88598278}
+  \bibitem{k9}{李昊. 五子棋人机博弈算法优化研究与实现[D].大连海事大学,2020.}
+  \bibitem{k10}{David Silver, Aja Huang.Mastering the game of Go with deep neural networks and tree search[J].Nature, 2016, 14(3)}
+  \bibitem{AI1}{扶潇. 基于机器学习的围棋策略网络模型的数据优化[D].北京邮电大学,2017.}
+  \bibitem{AI2}{CSDN BBlue-Sky AlphaGo Zero详解 https://
+  blog.csdn.net/qq\_33813365/article/\par
+  details/103344018}
 \bibitem{L1}{沈大旺.基于人工智能的五子棋搜索算法[J].产业与科技论坛,2020,19(01):73-74.}
 \bibitem{L2}赵美勇,宋思睿.博弈论算法在AI中的应用[J].计算机产品与流通,2019(09):278.
 \bibitem{L3}郑健磊,匡芳君.基于极小极大值搜索和Alpha Beta剪枝算法的五子棋智能博弈算法研究与实现[J].温州大学学报(自然科学版),2019,40(03):53-62.
@@ -176,7 +1412,9 @@ http://nooverfit.com/wp/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A0%91%E6%90%9C%E
 \bibitem{L7}董慧颖,王杨.多种搜索算法的五子棋博弈算法研究[J].沈阳理工大学学报,2017,36(02):39-43+83.
 \bibitem{L8}邢森.五子棋智能博弈的研究与设计[J].电脑知识与技术,2010,6(13):3497-3498.
 \bibitem{L9}张明亮,李凡长.一种新的博弈树搜索方法[J].山东大学学报(工学版),2009,39(06):1-7+23.
-    \end{thebibliography}
-    \newpage
+\bibitem{r1}马占欣,李亚,陆玉昌.用遗传算法解决五子棋博弈问题[J].信阳师范学院学报(自然科学版),2007(03):356-359.
+\bibitem{r2}游贵荣.游戏搜索算法中估价函数的构造策略[J].福建商业高等专科学校学报,2005(06):82-85+88.
+  \end{thebibliography}
+  \newpage
 \end{multicols}
 \end{document}
