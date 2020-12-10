@@ -3,7 +3,6 @@
 An implementation of the policyValueNet in PyTorch
 Tested in PyTorch 0.2.0 and 0.3.0
 
-@author: Junxiao Song
 """
 
 import torch
@@ -145,9 +144,10 @@ class PolicyValueNet():
         entropy = -torch.mean(
                 torch.sum(torch.exp(log_act_probs) * log_act_probs, 1)
                 )
-        return loss.data[0], entropy.data[0]
+        # return loss.data[0], entropy.data[0]
         #for pytorch version >= 0.5 please use the following line instead.
-        #return loss.item(), entropy.item()
+        return loss.item(), entropy.item()
+
 
     def get_policy_param(self):
         net_params = self.policy_value_net.state_dict()
