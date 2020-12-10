@@ -68,7 +68,7 @@ def run(AI_or_notAI):
     n = 5
     width, height = 8, 8
     # model_file = 'best_policy_8_8_5.model'
-    model_file = 'worst_policy.model'
+    model_file = 'AI/worst_policy.model'
     try:
         board = Board(width=width, height=height, n_in_row=n)
         game = Game(board)
