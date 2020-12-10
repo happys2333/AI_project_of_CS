@@ -118,6 +118,12 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT pythonhighlight.sty
+INPUT pythonhighlight.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 INPUT paper.aux
@@ -158,4 +164,6 @@ INPUT k4.png
 INPUT k4.jpg
 INPUT AI1.png
 INPUT AI2.png
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT paper.aux
