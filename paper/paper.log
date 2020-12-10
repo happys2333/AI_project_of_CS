@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  10 DEC 2020 23:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.23)  10 DEC 2020 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -815,12 +815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
  []
 
 
-Overfull \hbox (19.99971pt too wide) in paragraph at lines 1403--1404
-\TU/lmr/m/n/10.53937 blog.csdn.net/qq_33813365/article/ 
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 1410--1411
+Underfull \hbox (badness 5741) in paragraph at lines 1411--1412
 \TU/FandolSong-Regular(0)/m/n/10.53937 法 实 现 研 究 \TU/lmr/m/n/10.53937 [J]. \TU/FandolSong-Regular(0)/m/n/10.53937 中 国 新 通
  []
 
@@ -839,4 +834,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  58i,12n,81p,734b,1984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.xdv (42 pages, 682624 bytes).
+Output written on paper.xdv (42 pages, 682632 bytes).
