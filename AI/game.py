@@ -217,10 +217,12 @@ class Game(object):
                 if is_shown:
                     if winner != -1:
                         print("Game end. Winner is", players[winner])
-                        messagebox.showinfo('You win','恭喜您获胜')
+                        if(winner == 1):
+                            messagebox.showinfo('You win', '恭喜您获胜')
+                        else:
+                            messagebox.showinfo('You lose','您输了')
                     else:
                         print("Game end. Tie")
-                        messagebox.showinfo('You lose','您输了')
                 return winner
 
     def start_self_play(self, player, is_shown=0, temp=1e-3):
