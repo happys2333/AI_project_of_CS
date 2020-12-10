@@ -193,7 +193,6 @@ class Game(object):
         target=threading.Thread(target=UI.UI_Board.open_UI())
         target.start()
 
-
     def start_play1(self,player1, player2, start_player=0, is_shown=1):
         p1, p2 = self.board.players
         player1.set_player_ind(p1)
