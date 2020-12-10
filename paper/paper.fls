@@ -112,6 +112,14 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithmic.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithmic.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 INPUT paper.aux
 INPUT paper.aux
 OUTPUT paper.aux
@@ -148,4 +156,6 @@ INPUT k2.png
 INPUT k3.png
 INPUT k4.png
 INPUT k4.jpg
+INPUT AI1.png
+INPUT AI2.png
 INPUT paper.aux

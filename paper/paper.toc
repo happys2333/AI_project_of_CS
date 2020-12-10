@@ -5,7 +5,12 @@
 \contentsline {subsubsection}{\numberline {2.2.1}算法概述}{4}%
 \contentsline {subsubsection}{\numberline {2.2.2}算法实现}{5}%
 \contentsline {subsubsection}{\numberline {2.2.3}算法优点}{7}%
-\contentsline {section}{\numberline {3}程序代码}{7}%
-\contentsline {section}{\numberline {4}验证}{7}%
-\contentsline {section}{\numberline {5}结束语}{7}%
-\contentsline {section}{参考文献}{8}%
+\contentsline {subsection}{\numberline {2.3}人工智能实现}{7}%
+\contentsline {subsubsection}{\numberline {2.3.1}实现原理}{7}%
+\contentsline {subsubsection}{\numberline {2.3.2}策略价值网络训练}{10}%
+\contentsline {subsubsection}{\numberline {2.3.3}训练目标}{12}%
+\contentsline {subsection}{\numberline {2.4}人工智障算法思路}{12}%
+\contentsline {section}{\numberline {3}程序代码}{13}%
+\contentsline {section}{\numberline {4}测试}{13}%
+\contentsline {section}{\numberline {5}结束语}{13}%
+\contentsline {section}{参考文献}{14}%
