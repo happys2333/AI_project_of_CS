@@ -149,7 +149,6 @@ def showChess():
                 chessNew = chess(screen, Color.BLACK, i, j)
     pygame.display.update()
 
-
 # 控制游戏进程
 def open_UI():
 
@@ -161,6 +160,7 @@ def open_UI():
                 exit()
             else:
                 checkEvent(event)
+
 
 
 if __name__=="__main__":

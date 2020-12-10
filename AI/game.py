@@ -5,9 +5,9 @@
 
 from __future__ import print_function
 import numpy as np
-
+from tkinter import messagebox
 import UI.UI_Board
-
+import sys
 import threading
 
 
@@ -193,6 +193,7 @@ class Game(object):
         target=threading.Thread(target=UI.UI_Board.open_UI())
         target.start()
 
+
     def start_play1(self,player1, player2, start_player=0, is_shown=1):
         p1, p2 = self.board.players
         player1.set_player_ind(p1)
@@ -217,8 +218,10 @@ class Game(object):
                 if is_shown:
                     if winner != -1:
                         print("Game end. Winner is", players[winner])
+                        messagebox.showinfo('You win','恭喜您获胜')
                     else:
                         print("Game end. Tie")
+                        messagebox.showinfo('You lose','您输了')
                 return winner
 
     def start_self_play(self, player, is_shown=0, temp=1e-3):
